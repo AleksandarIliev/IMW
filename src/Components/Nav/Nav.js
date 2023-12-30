@@ -3,10 +3,10 @@ import { MenuBtn } from "./MenuBtn";
 
 export const Nav = ({windowSize}) => {
     return (
-        <div>
-            <NavLink to="/" >IMW Ltd.</NavLink>
+        <div className="nav">
+            <NavLink id="firmaName" to="/" >IMW Ltd.</NavLink>
             {windowSize < 600 ? <MenuBtn></MenuBtn> : (
-            <>
+            <div className="btnNav">
                 <NavLink to="/aboutUs" >About us</NavLink>
                 <NavLink to="/ourTeam" >Our team</NavLink>
                 <NavLink to="/products" >Products</NavLink>
@@ -14,7 +14,7 @@ export const Nav = ({windowSize}) => {
 
                 <NavLink to="/login" >Login</NavLink>
                 <NavLink to="/register" >Register</NavLink>
-            </>
+            </div>
             )}
         </div>
     );

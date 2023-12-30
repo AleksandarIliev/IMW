@@ -17,7 +17,7 @@ export const MenuBtn = () => {
                 <div className="bar3"></div>
             </div>
             {isClicked ? (
-                <>
+                <div className="menuNav">
                     <NavLink to="/aboutUs" >About us</NavLink>
                     <NavLink to="/ourTeam" >Our team</NavLink>
                     <NavLink to="/products" >Products</NavLink>
@@ -25,7 +25,13 @@ export const MenuBtn = () => {
 
                     <NavLink to="/login" >Login</NavLink>
                     <NavLink to="/register" >Register</NavLink>
-                </>
+                    <div className="lang">
+                        <NavLink className="langBtn">Language</NavLink>
+                        <NavLink className="langContent" to="/de" >De</NavLink>
+                        <NavLink className="langContent" to="/bg" >Bg</NavLink>
+                        <NavLink className="langContent" to="/en" >En</NavLink>
+                    </div>
+                </div>
             ) : []}
         </>
     )
