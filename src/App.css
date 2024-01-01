@@ -33,12 +33,39 @@ body {
     background-color: #666666;
 }
 
+.navBtn {
+    background-color: #75a3a3;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: 1;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: none;
+}
+.lineOne,
+.lineTwo,
+.lineThree {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+.navBtn:hover {
+    background-color: #666666;
+}
+
 
 .contents {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 
 .footer {
     height: 35px;
@@ -69,5 +96,8 @@ body {
     }
     .navbar a:not(:first-child) {
         display: none;
+    }
+    .navBtn {
+        display: block;
     }
 }
