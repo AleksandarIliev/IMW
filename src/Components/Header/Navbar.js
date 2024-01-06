@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom";
 
+import { useState, useEffect} from "react";
+
 export const Navbar = () => {
+    const [show, setShow] = useState(true)
     const handleNavBtn = () => {
         
     }
-
+    
     return (
         <div className="navbar">
             <NavLink to="/">IMW Ltd.</NavLink>
