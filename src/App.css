@@ -58,6 +58,10 @@ body {
 .navBtn:hover {
     background-color: #666666;
 }
+.miniNav a{
+    display: none;
+    
+}
 
 
 .contents {
@@ -104,5 +108,20 @@ body {
     }
     .navBtn {
         display: block;
+    }
+    .miniNav a{
+        position: relative;
+        top: 37px;
+        height: 30px;
+        width: 100%;
+        padding-top: 10px;
+        background-color: #75a3a3;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .miniNav a:hover {
+        background-color: #666666;
     }
 }
