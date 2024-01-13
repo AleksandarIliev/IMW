@@ -11,6 +11,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Routes, Route } from 'react-router-dom';
 
 import { useState, useEffect } from "react";
+import LangContext from './Components/Context/LangContext';
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -25,8 +26,11 @@ function App() {
         setWidth(width);
     }
 
+    const [lang, setLang] = useState("en");
+
+
     return (
-        <>
+        <LangContext.Provider value={lang}>
             <Header />
             <Routes window={window.scrollTo(0, 0)}>
                 <Route path="/" />
@@ -39,7 +43,7 @@ function App() {
                 <Route path="/logout" element={<Logout />} />
             </Routes>
             <Footer />
-        </>
+        </LangContext.Provider>
     )
 }
 
