@@ -11,7 +11,8 @@ import { Footer } from "./Components/Footer/Footer";
 import { Routes, Route } from 'react-router-dom';
 
 import { useState, useEffect } from "react";
-import LangContext from './Components/Context/LangContext';
+import { LangContext } from './Components/Context/LangContext';
+import { LangBtn } from './Components/LangBtn/LangBtn';
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -25,16 +26,16 @@ function App() {
         const width = window.innerWidth
         setWidth(width);
     }
-
-    const [lang, setLang] = useState("en");
-
-
+    const [lang, setLang] = useState("En");
+    
+    console.log(lang);
     return (
-        <LangContext.Provider value={lang}>
+        <LangContext.Provider value={{ lang, setLang }}>
             <Header />
+            <LangBtn />
             <Routes window={window.scrollTo(0, 0)}>
                 <Route path="/" />
-                <Route path="/about" element={<About width={width}/>} />
+                <Route path="/about" element={<About width={width} />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/products" element={<Products />} />
                 <Route path="/contact" element={<Contact />} />
