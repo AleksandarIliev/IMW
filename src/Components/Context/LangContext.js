@@ -1,6 +1,12 @@
 import { createContext } from "react";
 
 export const LangContext = createContext({
-    lang: "en",
+    lang: "En",
+    setLang: () => { }
+}, {
+    lang: "De",
+    setLang: () => { }
+}, {
+    lang: "Bg",
     setLang: () => { }
 });

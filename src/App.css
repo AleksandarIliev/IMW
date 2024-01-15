@@ -89,6 +89,10 @@ body {
     font-style: italic;
 }
 
+.language {
+
+}
+
 @media screen and (max-width: 700px) {
     .navbar {
         position: fixed;
