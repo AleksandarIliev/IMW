@@ -90,7 +90,9 @@ body {
 }
 
 .language {
-
+    position: fixed;
+    top: 8px;
+    right: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -127,5 +129,10 @@ body {
     }
     .miniNav a:hover {
         background-color: #666666;
+    }
+    .language {
+        position: fixed;
+        top: 8px;
+        right: 80px;
     }
 }

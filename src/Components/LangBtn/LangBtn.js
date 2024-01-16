@@ -17,7 +17,7 @@ export const LangBtn = () => {
             </span>
             {isClick ?
                 <div>
-                    <div><button onClick={() => setLang('Bg')} >Bg</button></div>
+                    <div><button onClick={() => setLang('Bg')}>Bg</button></div>
                     <div><button onClick={() => setLang('En')}>En</button></div>
                     <div><button onClick={() => setLang('De')}>De</button></div>
                 </div> : ''
