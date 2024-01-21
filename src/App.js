@@ -8,11 +8,11 @@ import { Register } from "./Components/Register/Register";
 import { Login } from "./Components/Login/Login";
 import { Logout } from "./Components/Logout/Logout";
 import { Footer } from "./Components/Footer/Footer";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-import { LangContext } from './Components/Context/LangContext';
-import { LangBtn } from './Components/LangBtn/LangBtn';
+import { LanguageProvider } from "./Components/Context/LanguageContext";
+import LangSelector from "./Components/LangBtn/LangSelector";
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -26,13 +26,11 @@ function App() {
         const width = window.innerWidth
         setWidth(width);
     }
-    const [lang, setLang] = useState("En");
-    
-    console.log(lang);
+
     return (
-        <LangContext.Provider value={{ lang, setLang }}>
+        <LanguageProvider>
+            <LangSelector />
             <Header />
-            <LangBtn />
             <Routes window={window.scrollTo(0, 0)}>
                 <Route path="/" />
                 <Route path="/about" element={<About width={width} />} />
@@ -44,7 +42,7 @@ function App() {
                 <Route path="/logout" element={<Logout />} />
             </Routes>
             <Footer />
-        </LangContext.Provider>
+        </LanguageProvider>
     )
 }
 

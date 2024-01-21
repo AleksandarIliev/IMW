@@ -5,7 +5,7 @@ import en from "./en.json";
 export const langList = { bg, de, en };
 
 export const langOption = {
-    bg: "Bulgarien",
-    de: "Deutsch",
-    en: "English",
+    bg: "Bg",
+    de: "De",
+    en: "En",
 };
