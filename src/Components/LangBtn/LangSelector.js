@@ -37,7 +37,7 @@ export default function LangSelector () {
     const handleLangChange = e => userLangChange(e.target.value);
 
     return (
-        <select onChange={handleLangChange} value = {userLang}>
+        <select className="langBtn" onChange={handleLangChange} value = {userLang}>
             {Object.entries(langOption).map(([id, name]) => (
                 <option key={id} value={id}>{name}</option>
             ))}
