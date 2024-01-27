@@ -1,9 +1,16 @@
 {
-    "About": "About",
-    "Team": "Team",
-    "Products": "Product",
-    "Contact": "Contact",
-    "Register": "Register",
-    "Login": "Login",
-    "Logout": "Logout"
+    "about": "About",
+    "team": "Team",
+    "products": "Product",
+    "contact": "Contact",
+    "register": "Register",
+    "login": "Login",
+    "logout": "Logout",
+    "option1": "Option 1",
+    "option2": "Option 2",
+    "option3": "Option 3",
+    "exploreHeader": "exploreHeader",
+    "welcomeDescription": "Welcome",
+    "clickMe": "Click hire",
+    "buttonClicked": "button is clicked"
 }

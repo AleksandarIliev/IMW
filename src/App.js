@@ -13,6 +13,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { LanguageProvider } from "./Components/Context/LanguageContext";
 import LangSelector from "./Components/LangBtn/LangSelector";
+import Content from './Components/Content/Content';
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -41,6 +42,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/logout" element={<Logout />} />
             </Routes>
+            <Content />
             <Footer />
         </LanguageProvider>
     )

@@ -1,9 +1,16 @@
 {
-    "About": "За нас",
-    "Team": "Екип",
-    "Products": "Продукти",
-    "Contact": "Контакти",
-    "Register": "Регистрация",
-    "Login": "Вход",
-    "Logout": "Изход"
+    "about": "За нас",
+    "team": "Екип",
+    "products": "Продукти",
+    "contact": "Контакти",
+    "register": "Регистрация",
+    "login": "Вход",
+    "logout": "Изход",
+    "option1": "Опция 1",
+    "option2": "Опция 2",
+    "option3": "Опция 3",
+    "exploreHeader": "Разглеждане",
+    "welcomeDescription": "Добре дошли!!!",
+    "clickMe": "Кликни тук",
+    "buttonClicked": "натиснал си бутона"
 }

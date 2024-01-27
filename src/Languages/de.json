@@ -1,9 +1,16 @@
 {
-    "About": "Über uns",
-    "Team": "Team",
-    "Products": "Produkte",
-    "Contact": "Kontakt",
-    "Register": "Anmeldung",
-    "Login": "Eingang",
-    "Logout": "Ausgang"
+    "about": "Über uns",
+    "team": "Team",
+    "products": "Produkte",
+    "contact": "Kontakt",
+    "register": "Anmeldung",
+    "login": "Eingang",
+    "logout": "Ausgang",
+    "option1": "Möglichkeit 1",
+    "option2": "Möglichkeit 2",
+    "option3": "Möglichkeit 3",
+    "exploreHeader": "Rücksichtnahme",
+    "welcomeDescription": "Willkomenn!!!",
+    "clickMe": "Klick mich",
+    "buttonClicked": "die Taste wird gedrückt"
 }
