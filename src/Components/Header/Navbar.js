@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 export const Navbar = () => {
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(false);
+    const { dictionary } = useContext(LanguageContext);
     const handleNavBtn = () => {
         setShow((current) => !current)
     }
@@ -11,13 +13,13 @@ export const Navbar = () => {
         <>
             <div className="navbar">
                 <NavLink to="/">IMW Ltd.</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/team">Team</NavLink>
-                <NavLink to="/products">Products</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
-                <NavLink to="/register">Register</NavLink>
-                <NavLink to="/login">Login</NavLink>
-                <NavLink to="/logout">Logout</NavLink>
+                <NavLink to="/about">{dictionary.about}</NavLink>
+                <NavLink to="/team">{dictionary.team}</NavLink>
+                <NavLink to="/products">{dictionary.products}</NavLink>
+                <NavLink to="/contact">{dictionary.contact}</NavLink>
+                <NavLink to="/register">{dictionary.register}</NavLink>
+                <NavLink to="/login">{dictionary.login}</NavLink>
+                <NavLink to="/logout">{dictionary.logout}</NavLink>
             </div>
             <div className="navBtn" onClick={handleNavBtn}>
                 <div className="lineOne"></div>
@@ -25,13 +27,13 @@ export const Navbar = () => {
                 <div className="lineThree"></div>
             </div>
             {show && <div className="miniNav">
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/team">Team</NavLink>
-                <NavLink to="/products">Products</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
-                <NavLink to="/register">Register</NavLink>
-                <NavLink to="/login">Login</NavLink>
-                <NavLink to="/logout">Logout</NavLink>
+                <NavLink to="/about">{dictionary.about}</NavLink>
+                <NavLink to="/team">{dictionary.team}</NavLink>
+                <NavLink to="/products">{dictionary.products}</NavLink>
+                <NavLink to="/contact">{dictionary.contact}</NavLink>
+                <NavLink to="/register">{dictionary.register}</NavLink>
+                <NavLink to="/login">{dictionary.login}</NavLink>
+                <NavLink to="/logout">{dictionary.logout}</NavLink>
             </div>}
         </>
     );
