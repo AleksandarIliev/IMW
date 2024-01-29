@@ -1,7 +1,12 @@
-
+import { useEffect } from "react";
 
 export const Logout = () => {
+    // const auth = useAuth();
+
     return (
-        <p>You are logout from our site</p>
+        <div className="logout">
+            <p>Are you sure to want to logout:</p>
+            <button onClick={() => auth.logout()} classname="logoutBtn">Logout</button>
+        </div>
     )
 }
