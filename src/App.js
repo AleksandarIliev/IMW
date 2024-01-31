@@ -13,7 +13,8 @@ import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { LanguageProvider } from "./Components/Context/LanguageContext";
 import LangSelector from "./Components/LangBtn/LangSelector";
-import Content from './Components/Content/Content';
+import Content from "./Components/Content/Content";
+import AuthProvider from "./Components/Context/AuthProvider"
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -29,22 +30,24 @@ function App() {
     }
 
     return (
-        <LanguageProvider>
-            <LangSelector />
-            <Header />
-            <Routes window={window.scrollTo(0, 0)}>
-                <Route path="/" />
-                <Route path="/about" element={<About width={width} />} />
-                <Route path="/team" element={<Team />} />
-                <Route path="/products" element={<Products />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/register" element={<Register />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/logout" element={<Logout />} />
-            </Routes>
-            <Content />
-            <Footer />
-        </LanguageProvider>
+        <AuthProvider>
+            <LanguageProvider>
+                <LangSelector />
+                <Header />
+                <Routes window={window.scrollTo(0, 0)}>
+                    <Route path="/" />
+                    <Route path="/about" element={<About width={width} />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/products" element={<Products />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/logout" element={<Logout />} />
+                </Routes>
+                <Content />
+                <Footer />
+            </LanguageProvider>
+        </AuthProvider>
     )
 }
 
