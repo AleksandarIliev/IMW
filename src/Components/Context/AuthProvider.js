@@ -9,14 +9,14 @@ const [token, setToken] = useState(localStorage.getItem("site") || "");
 const navigate = useNavigate();
 const loginAction = async (data) => {
     try {
-        const respons = await fetch(/* your api endpoint*/, {
+        const respons = await fetch("../data.json", {
             method: "POST",
             headers: {
                 "Content-type": "aplication/json",
             },
             body: JSON.stringify(data),
         });
-        const res = await Response.json();
+        const res = await respons.json();
         if (res.data) {
             setUser(res.data.user);
             setToken(res.token);

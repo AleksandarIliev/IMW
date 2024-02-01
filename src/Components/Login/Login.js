@@ -1,4 +1,4 @@
-
+import { useAuth } from "../Context/AuthProvider";
 import { useState } from "react";
 
 
@@ -8,12 +8,14 @@ export const Login = () => {
         password: ""
     });
 
+    const auth = useAuth();
     const handleSubmitEvent = (e) => {
         e.preventDefault();
         if (input.username !== "" && input.password !== "") {
-
+            auth.loginAction(input);
+            return;
         }
-        alert("Please entre a valid username or password!!!")
+        alert("Please entre a valid email or password!!!")
     }
 
     const handleInput = (e) => {
