@@ -8,8 +8,9 @@ import { Register } from "./Components/Register/Register";
 import { Login } from "./Components/Login/Login";
 import { Logout } from "./Components/Logout/Logout";
 import { Footer } from "./Components/Footer/Footer";
-import { Routes, Route } from "react-router-dom";
+import { Error } from "./Components/Error/Error";
 
+import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { LanguageProvider } from "./Components/Context/LanguageContext";
 import LangSelector from "./Components/LangBtn/LangSelector";
@@ -43,6 +44,10 @@ function App() {
                     <Route path="/register" element={<Register />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/logout" element={<Logout />} />
+
+                    <Route path="/*" element={<Error />}></Route>
+                    <Route path="/*/*" element={<Error />}></Route>
+                    <Route path="/*/*/*" element={<Error />}></Route>
                 </Routes>
                 <Content />
                 <Footer />
