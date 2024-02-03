@@ -1,0 +1,280 @@
+{
+    "about": [
+        {
+            "company": "The IMV EOOD company was created due to the need of our customers for construction, consulting, solving various production problems. With our team, we cover a wide range of industries. We develop and implement various modern and proven solutions depending on customer requirements and problems. We keep up with the most modern software for designing, developing and testing the products before they go into production. We pay special attention to the small and large pebbles in our path and in the path of our customers.",
+            "experience": "Our team includes specialists in various fields. With them we manage to cover a wide range of industries in our market. We also work successfully with companies located from the USA to Japan and from Germany to South Africa. In solving problems, we consult the world leaders in the relevant field. We rely enormously on the experience of previous generations, but also on the fire of the present. With our team, we always find a way out even in the most difficult situations. An outlet that allows our customers to be calm about their business and their future.",
+            "partner": "We work with the biggest specialists both on our and on the international market. We have specialist turners, millers, welders, locksmiths, painters, auto specialists and much more. We have partners in all fields - automation, robotics, electrical equipment, programming and in any field you need."
+        }
+    ],
+    "team": [
+        {
+            "personOne": "Eng. Michail Mihailov",
+            "descriptionOne": "civil engineer/civil construction",
+            "personTwo": "Eng. Danail Angelov",
+            "descriptionTwo": "machanical engineer/automotive",
+            "personThree": "Eng. Marian Iliev",
+            "descriptionThree": "mechanical engineer",
+            "personFour": "Eng. Ivailo Lalov",
+            "descriptionFour": "electrical engineer<",
+            "personFive": "Eng. Aleksandar Iovchev",
+            "descriptionFive": "mechanical engineer/automotive",
+            "personSix": "Dr.Eng. Plamen Angelov",
+            "descriptionSix": "mechanical engineer/metrologist",
+            "personSeven": "Arch. Bogdana Nikolova",
+            "descriptionSeven": "architect/civil construction",
+            "personEight": "Eng. Aleksandar Iliev",
+            "descriptionEight": "mechanical engineer/constructor"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Vibro leak",
+            "type": "vibroMachines",
+            "description": "This is a special machine for transport to a different material.",
+            "imageUrl": "Vibro_leak.jpg",
+            "alt": "This is a vibro leak"
+        },
+        {
+            "id": "2",
+            "name": "Crusher",
+            "type": "shredderMachines",
+            "description": "This is a machine for crushing material to a different fraction.",
+            "imageUrl": "Crusher.jpg",
+            "alt": "This is a crusher"
+        },
+        {
+            "id": "3",
+            "name": "Screw",
+            "type": "transportMachines",
+            "description": "This machine transport material from point A to point B.",
+            "imageUrl": "Screw.jpg",
+            "alt": "This is a screw"
+        },
+        {
+            "id": "4",
+            "name": "Sieve",
+            "type": "sievedMachines",
+            "description": "This machine use for filtring material to a different fraction.",
+            "imageUrl": "Sieve.jpg",
+            "alt": "This is a sieve"
+        },
+        {
+            "id": "5",
+            "name": "Two-way valve",
+            "type": "pneumaticMachines",
+            "description": "This machine use for targeting a material to a different way in line.",
+            "imageUrl": "Two_way_valve.jpg",
+            "alt": "This is a two-way valve"
+        },
+        {
+            "id": "6",
+            "name": "Turbine",
+            "type": "dosingMachines",
+            "description": "This is for dosing material and loading into a different sack.",
+            "imageUrl": "Turbine.jpg",
+            "alt": "This is a turbine"
+        },
+        {
+            "id": "7",
+            "name": "Bunker",
+            "type": "bunkers",
+            "description": "This accumulation to material, with a different capacity.",
+            "imageUrl": "Bunker.jpg",
+            "alt": "This is a bunker"
+        },
+        {
+            "id": "8",
+            "name": "Tactful feeder",
+            "type": "dosingMachines",
+            "description": "This use for dosing material to a bend or other part of line.",
+            "imageUrl": "Tactful_feeder.jpg",
+            "alt": "This is a tactful feeder"
+        },
+        {
+            "id": "9",
+            "name": "Conveying belt",
+            "type": "transportMachines",
+            "description": "Use for transport material from one to other part of line.",
+            "imageUrl": "Conveying_belt_one.jpg",
+            "alt": "This is a conveying belt"
+        },
+        {
+            "id": "10",
+            "name": "Big-bag station",
+            "type": "bunkers",
+            "description": "Use for overload and unloading material and change a big-bag.",
+            "imageUrl": "Big_Bag_station.jpg",
+            "alt": "This is a big-bag station"
+        },
+        {
+            "id": "11",
+            "name": "Bunker-buterfly",
+            "type": "dosingMachines",
+            "description": "This accumulation to material and fin sensor for stop loading.",
+            "imageUrl": "Bunker_buterfly.jpg",
+            "alt": "This is a Bunker with buterfly valve and fin sensor"
+        },
+        {
+            "id": "12",
+            "name": "Bunker-oval",
+            "type": "bunkers",
+            "description": "This bunker is with oval form and use for accumulate material.",
+            "imageUrl": "Bunker_oval.jpg",
+            "alt": "This bunker is with oval form and use for accumulate material"
+        },
+        {
+            "id": "13",
+            "name": "Bunker-pyramid",
+            "type": "bunkers",
+            "description": "This bunker is with pyramid form and use for accumulate material.",
+            "imageUrl": "Bunker_pyramid.jpg",
+            "alt": "This bunker is with pyramid form and use for accumulate material"
+        },
+        {
+            "id": "14",
+            "name": "Bunker-scales",
+            "type": "measuringEquipments",
+            "description": "This bunker is with scales form material measurement.",
+            "imageUrl": "Bunker_scales.jpg",
+            "alt": "This bunker is with scales form material measurement"
+        },
+        {
+            "id": "15",
+            "name": "Bunker-trapezoidal",
+            "type": "bunkers",
+            "description": "This bunker is with trapezoidal form and use for accumulate material.",
+            "imageUrl": "Bunker_trapezoidal.jpg",
+            "alt": "This bunker is with trapezoidal form and use for accumulate material"
+        },
+        {
+            "id": "16",
+            "name": "Collector",
+            "type": "pneumaticMachines",
+            "description": "The collector is use for collects a different ways of material.",
+            "imageUrl": "Collector.jpg",
+            "alt": "The collector is use for collects a different ways of material"
+        },
+        {
+            "id": "17",
+            "name": "Conveying belt",
+            "type": "transportMachines",
+            "description": "Use for transport material from one to other part of line.",
+            "imageUrl": "Conveying_belt_two.jpg",
+            "alt": "Use for transport material from one to other part of line"
+        },
+        {
+            "id": "18",
+            "name": "Conveying belt",
+            "type": "transportMachines",
+            "description": "Use for transport material from one to other part of line.",
+            "imageUrl": "Conveying_belt_three.jpg",
+            "alt": "Use for transport material from one to other part of line"
+        },
+        {
+            "id": "19",
+            "name": "Drum-sieve",
+            "type": "sievedMachines",
+            "description": "This machine use for filtring material to a different fraction.",
+            "imageUrl": "Drum_sieve.jpg",
+            "alt": "This machine use for filtring material to a different fraction."
+        },
+        {
+            "id": "20",
+            "name": "Gateway",
+            "type": "dosingMachines",
+            "description": "This machine use for dosing and submits a part of material.",
+            "imageUrl": "Gateway.jpg",
+            "alt": "This machine use for dosing and submits a part of material."
+        },
+        {
+            "id": "21",
+            "name": "Hepa-filter",
+            "type": "filteringMachines",
+            "description": "It serves for cleaning on the dirty air in instalation and to save the environment.",
+            "imageUrl": "Hepa_filter.jpg",
+            "alt": "It serves for cleaning on the dirty air in instalation and to save the environment"
+        },
+        {
+            "id": "22",
+            "name": "Rollgang-scales",
+            "type": "measuringEquipments",
+            "description": "This machine use for transport and material measurement.",
+            "imageUrl": "Rollgang_scales.jpg",
+            "alt": "This machine use for transport and material measurement"
+        },
+        {
+            "id": "23",
+            "name": "Gateway-big",
+            "type": "dosingMachines",
+            "description": "This machine use for dosing and submits a part of material.",
+            "imageUrl": "Gateway_big.jpg",
+            "alt": "This machine use for dosing and submits a part of material."
+        },
+        {
+            "id": "24",
+            "name": "Kitchen-equipment",
+            "type": "kitchenEquipments",
+            "description": "All kinds of built-in and free standing kitchen equipment.",
+            "imageUrl": "Kitchen_equipment.jpg",
+            "alt": "All kinds of built-in and free standing kitchen equipment"
+        },
+        {
+            "id": "25",
+            "name": "Rollgang",
+            "type": "transportMachines",
+            "description": "Use for transport and compression for different material.",
+            "imageUrl": "Rollgang.jpg",
+            "alt": "Use for transport and compression for different material"
+        },
+        {
+            "id": "26",
+            "name": "Rotating-flange",
+            "type": "pneumaticMachines",
+            "description": "Rotating flange is used for targeting at a different angle in the line.",
+            "imageUrl": "Rotating_flange.jpg",
+            "alt": "Rotating flange is used for targeting at a different angle in the line"
+        },
+        {
+            "id": "27",
+            "name": "Dust-collector",
+            "type": "pneumaticMachines",
+            "description": "It serves to collect the unnecessary dust that is on the sacks.",
+            "imageUrl": "Dust_collector.jpg",
+            "alt": "It serves to collect the unnecessary dust that is on the sacks"
+        },
+        {
+            "id": "28",
+            "name": "Bunker-trapezoidal-big",
+            "type": "bunkers",
+            "description": "This bunker is with trapezoidal form and use for accumulate material.",
+            "imageUrl": "Bunker_trapezoidal_big.jpg",
+            "alt": "This bunker is with trapezoidal form and use for accumulate material."
+        },
+        {
+            "id": "29",
+            "name": "Screw-collective",
+            "type": "transportMachines",
+            "description": "Use for collect a different material in one place and transport to other.",
+            "imageUrl": "Screw_collective.jpg",
+            "alt": "Use for collect a different material in one place and transport to other."
+        },
+        {
+            "id": "30",
+            "name": "Conveying-belt-with-oar",
+            "type": "transportMachines",
+            "description": "It serves to transport the material at different heights.",
+            "imageUrl": "Conveying_belt_with_oar.jpg",
+            "alt": "It serves to transport the material at different heights."
+        }
+    ],
+    "contact": [
+        {
+            "tel.": "0878783537",
+            "email": "aleksandar.m.iliev@abv.bg",
+            "office": "We do not have a fixed office in Sofia. We hold the meetings either at the client's place or at a place convenient for both parties.",
+            "workingTime": "You can contact us at any time - 24/7",
+            "companyDate": "The company is registered under the VAT law."
+        }
+    ]
+}
