@@ -59,9 +59,9 @@ body {
     background-color: #666666;
 }
 .miniNav a{
-    display: none;
-    
+    display: none;    
 }
+
 .langBtn {
     position: absolute;
     top: 7px;
@@ -119,15 +119,16 @@ body {
     }
     .navBtn {
         display: block;
+        position: fixed;
     }
     .miniNav a{
         position: relative;
+        display: block;
         top: 37px;
         height: 30px;
         width: 100%;
         padding-top: 10px;
         background-color: #75a3a3;
-        display: block;
         color: white;
         text-align: center;
         text-decoration: none;
@@ -141,6 +142,7 @@ body {
         right: 80px;
     }
     .langBtn {
+        position: fixed;
         right: 80px;
         z-index: 1;
     }
