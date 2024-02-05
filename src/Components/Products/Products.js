@@ -1,7 +1,14 @@
-
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
+import { Item } from "./Item"
 
 export const Products = () => {
+    const dictionary = useContext(LanguageContext);
+    const productsObj = dictionary.dictionary.contentProducts; 
+
     return (
-        <p>This is a short list what we can do:</p>
+        <div>
+            <ul className="product"> {productsObj.map(x => <li className="liStyle" key={x.id}><Item {...x}/></li>)}</ul>
+        </div>
     )
 }

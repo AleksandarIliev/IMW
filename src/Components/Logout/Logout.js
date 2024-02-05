@@ -8,7 +8,7 @@ export const Logout = () => {
         <div className="logout">
             <h3>Hi {auth.user?.username}</h3>
             <p>Are you sure to want to logout:</p>
-            <button onClick={() => auth.logOut()} classname="logoutBtn">Logout</button>
+            <button onClick={() => auth.logOut()} className="logoutBtn">Logout</button>
         </div>
     )
 }
