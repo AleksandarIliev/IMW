@@ -35,7 +35,7 @@
     ],
     "contentProducts": [
         {
-            "id": "1",
+            "id": "IDN: 0001",
             "name": "Vibro leak",
             "type": "vibroMachines",
             "description": "This is a special machine for transport to a different material.",
@@ -43,7 +43,7 @@
             "alt": "This is a vibro leak"
         },
         {
-            "id": "2",
+            "id": "IDN: 0002",
             "name": "Crusher",
             "type": "shredderMachines",
             "description": "This is a machine for crushing material to a different fraction.",
@@ -51,7 +51,7 @@
             "alt": "This is a crusher"
         },
         {
-            "id": "3",
+            "id": "IDN: 0003",
             "name": "Screw",
             "type": "transportMachines",
             "description": "This machine transport material from point A to point B.",
@@ -59,7 +59,7 @@
             "alt": "This is a screw"
         },
         {
-            "id": "4",
+            "id": "IDN: 0004",
             "name": "Sieve",
             "type": "sievedMachines",
             "description": "This machine use for filtring material to a different fraction.",
@@ -67,7 +67,7 @@
             "alt": "This is a sieve"
         },
         {
-            "id": "5",
+            "id": "IDN: 0005",
             "name": "Two-way valve",
             "type": "pneumaticMachines",
             "description": "This machine use for targeting a material to a different way in line.",
@@ -75,7 +75,7 @@
             "alt": "This is a two-way valve"
         },
         {
-            "id": "6",
+            "id": "IDN: 0006",
             "name": "Turbine",
             "type": "dosingMachines",
             "description": "This is for dosing material and loading into a different sack.",
@@ -83,7 +83,7 @@
             "alt": "This is a turbine"
         },
         {
-            "id": "7",
+            "id": "IDN: 0007",
             "name": "Bunker",
             "type": "bunkers",
             "description": "This accumulation to material, with a different capacity.",
@@ -91,7 +91,7 @@
             "alt": "This is a bunker"
         },
         {
-            "id": "8",
+            "id": "IDN: 0008",
             "name": "Tactful feeder",
             "type": "dosingMachines",
             "description": "This use for dosing material to a bend or other part of line.",
@@ -99,7 +99,7 @@
             "alt": "This is a tactful feeder"
         },
         {
-            "id": "9",
+            "id": "IDN: 0009",
             "name": "Conveying belt",
             "type": "transportMachines",
             "description": "Use for transport material from one to other part of line.",
@@ -107,7 +107,7 @@
             "alt": "This is a conveying belt"
         },
         {
-            "id": "10",
+            "id": "IDN: 0010",
             "name": "Big-bag station",
             "type": "bunkers",
             "description": "Use for overload and unloading material and change a big-bag.",
@@ -115,7 +115,7 @@
             "alt": "This is a big-bag station"
         },
         {
-            "id": "11",
+            "id": "IDN: 0011",
             "name": "Bunker-buterfly",
             "type": "dosingMachines",
             "description": "This accumulation to material and fin sensor for stop loading.",
@@ -123,7 +123,7 @@
             "alt": "This is a Bunker with buterfly valve and fin sensor"
         },
         {
-            "id": "12",
+            "id": "IDN: 0012",
             "name": "Bunker-oval",
             "type": "bunkers",
             "description": "This bunker is with oval form and use for accumulate material.",
@@ -131,7 +131,7 @@
             "alt": "This bunker is with oval form and use for accumulate material"
         },
         {
-            "id": "13",
+            "id": "IDN: 0013",
             "name": "Bunker-pyramid",
             "type": "bunkers",
             "description": "This bunker is with pyramid form and use for accumulate material.",
@@ -139,7 +139,7 @@
             "alt": "This bunker is with pyramid form and use for accumulate material"
         },
         {
-            "id": "14",
+            "id": "IDN: 0014",
             "name": "Bunker-scales",
             "type": "measuringEquipments",
             "description": "This bunker is with scales form material measurement.",
@@ -147,7 +147,7 @@
             "alt": "This bunker is with scales form material measurement"
         },
         {
-            "id": "15",
+            "id": "IDN: 0015",
             "name": "Bunker-trapezoidal",
             "type": "bunkers",
             "description": "This bunker is with trapezoidal form and use for accumulate material.",
@@ -155,7 +155,7 @@
             "alt": "This bunker is with trapezoidal form and use for accumulate material"
         },
         {
-            "id": "16",
+            "id": "IDN: 0016",
             "name": "Collector",
             "type": "pneumaticMachines",
             "description": "The collector is use for collects a different ways of material.",
@@ -163,7 +163,7 @@
             "alt": "The collector is use for collects a different ways of material"
         },
         {
-            "id": "17",
+            "id": "IDN: 0017",
             "name": "Conveying belt",
             "type": "transportMachines",
             "description": "Use for transport material from one to other part of line.",
@@ -171,7 +171,7 @@
             "alt": "Use for transport material from one to other part of line"
         },
         {
-            "id": "18",
+            "id": "IDN: 0018",
             "name": "Conveying belt",
             "type": "transportMachines",
             "description": "Use for transport material from one to other part of line.",
@@ -179,7 +179,7 @@
             "alt": "Use for transport material from one to other part of line"
         },
         {
-            "id": "19",
+            "id": "IDN: 0019",
             "name": "Drum-sieve",
             "type": "sievedMachines",
             "description": "This machine use for filtring material to a different fraction.",
@@ -187,7 +187,7 @@
             "alt": "This machine use for filtring material to a different fraction."
         },
         {
-            "id": "20",
+            "id": "IDN: 0020",
             "name": "Gateway",
             "type": "dosingMachines",
             "description": "This machine use for dosing and submits a part of material.",
@@ -195,7 +195,7 @@
             "alt": "This machine use for dosing and submits a part of material."
         },
         {
-            "id": "21",
+            "id": "IDN: 0021",
             "name": "Hepa-filter",
             "type": "filteringMachines",
             "description": "It serves for cleaning on the dirty air in instalation and to save the environment.",
@@ -203,7 +203,7 @@
             "alt": "It serves for cleaning on the dirty air in instalation and to save the environment"
         },
         {
-            "id": "22",
+            "id": "IDN: 0022",
             "name": "Rollgang-scales",
             "type": "measuringEquipments",
             "description": "This machine use for transport and material measurement.",
@@ -211,7 +211,7 @@
             "alt": "This machine use for transport and material measurement"
         },
         {
-            "id": "23",
+            "id": "IDN: 0023",
             "name": "Gateway-big",
             "type": "dosingMachines",
             "description": "This machine use for dosing and submits a part of material.",
@@ -219,7 +219,7 @@
             "alt": "This machine use for dosing and submits a part of material."
         },
         {
-            "id": "24",
+            "id": "IDN: 0024",
             "name": "Kitchen-equipment",
             "type": "kitchenEquipments",
             "description": "All kinds of built-in and free standing kitchen equipment.",
@@ -227,7 +227,7 @@
             "alt": "All kinds of built-in and free standing kitchen equipment"
         },
         {
-            "id": "25",
+            "id": "IDN: 0025",
             "name": "Rollgang",
             "type": "transportMachines",
             "description": "Use for transport and compression for different material.",
@@ -235,7 +235,7 @@
             "alt": "Use for transport and compression for different material"
         },
         {
-            "id": "26",
+            "id": "IDN: 0026",
             "name": "Rotating-flange",
             "type": "pneumaticMachines",
             "description": "Rotating flange is used for targeting at a different angle in the line.",
@@ -243,7 +243,7 @@
             "alt": "Rotating flange is used for targeting at a different angle in the line"
         },
         {
-            "id": "27",
+            "id": "IDN: 0027",
             "name": "Dust-collector",
             "type": "pneumaticMachines",
             "description": "It serves to collect the unnecessary dust that is on the sacks.",
@@ -251,7 +251,7 @@
             "alt": "It serves to collect the unnecessary dust that is on the sacks"
         },
         {
-            "id": "28",
+            "id": "IDN: 0028",
             "name": "Bunker-trapezoidal-big",
             "type": "bunkers",
             "description": "This bunker is with trapezoidal form and use for accumulate material.",
@@ -259,7 +259,7 @@
             "alt": "This bunker is with trapezoidal form and use for accumulate material."
         },
         {
-            "id": "29",
+            "id": "IDN: 0029",
             "name": "Screw-collective",
             "type": "transportMachines",
             "description": "Use for collect a different material in one place and transport to other.",
@@ -267,7 +267,7 @@
             "alt": "Use for collect a different material in one place and transport to other."
         },
         {
-            "id": "30",
+            "id": "IDN: 0030",
             "name": "Conveying-belt-with-oar",
             "type": "transportMachines",
             "description": "It serves to transport the material at different heights.",
