@@ -77,18 +77,22 @@ body {
 
 
 .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
     height: 35px;
+    width: 100%;
     background-color: #75a3a3;
     color: white;
     text-align: center;
 }
 
 .footer p {
-    padding-top: 7px;
-    font-style: italic;
+    position: relative;
+    top: -10px;
 }
-
 .footer a {
+    
     text-decoration: none;
     color: white;
     font-style: italic;
