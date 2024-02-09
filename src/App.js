@@ -14,7 +14,7 @@ import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { LanguageProvider } from "./Components/Context/LanguageContext";
 import LangSelector from "./Components/LangBtn/LangSelector";
-import Content from "./Components/Content/Content";
+// import Content from "./Components/Content/Content";
 import AuthProvider from "./Components/Context/AuthProvider"
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
                     <Route path="/*/*" element={<Error />}></Route>
                     <Route path="/*/*/*" element={<Error />}></Route>
                 </Routes>
-                <Content />
+                {/* <Content /> */}
                 <Footer />
             </LanguageProvider>
         </AuthProvider>

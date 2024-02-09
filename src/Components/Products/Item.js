@@ -1,14 +1,14 @@
 import styles from "./Item.module.css"
 
 export const Item = ({ id, name, type, description, imageUrl, alt }) => {
-    
+
     return (
-        <div>
+        <div className={styles.column}>
             <div>{id}</div>
             <div>{name}</div>
             <div>{type}</div>
             <div>{description}</div>
-            <img className={styles.image} src={imageUrl} alt={alt}/>
+            <img className={styles.image} src={imageUrl} alt={alt} />
         </div>
     )
 }
