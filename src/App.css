@@ -126,6 +126,10 @@ body {
         display: block;
         position: fixed;
     }
+    .miniNav {
+        position: fixed;
+        width: 100%;
+    }
     .miniNav a{
         position: relative;
         display: block;

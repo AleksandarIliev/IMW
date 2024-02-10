@@ -10,7 +10,7 @@ export const About = ({ width }) => {
             <div className={styles.aboutStyle}>{dictionary.contentAbout[0].company}</div>
             <div className={styles.aboutStyle}>{dictionary.contentAbout[0].experience}</div>
             <div className={styles.aboutStyle}>{dictionary.contentAbout[0].partner}</div>
-            <p>Width: {width}</p>
+            {/* <p>Width: {width}</p> */}
         </>
     )
 }
