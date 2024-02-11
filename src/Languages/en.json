@@ -6,6 +6,44 @@
     "register": "Register",
     "login": "Login",
     "logout": "Logout",
+    "contentHome": [
+        {
+            "image": "",
+            "imageText": "" 
+        }, 
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": ""
+        },
+        {
+            "image": "",
+            "imageText": ""
+        },
+        {
+            "image": "",
+            "imageText": ""
+        }
+    ],
     "contentAbout": [
         {
             "company": "The IMV EOOD company was created due to the need of our customers for construction, consulting, solving various production problems. With our team, we cover a wide range of industries. We develop and implement various modern and proven solutions depending on customer requirements and problems. We keep up with the most modern software for designing, developing and testing the products before they go into production. We pay special attention to the small and large pebbles in our path and in the path of our customers.",

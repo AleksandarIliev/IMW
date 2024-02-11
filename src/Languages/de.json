@@ -6,6 +6,44 @@
     "register": "Anmeldung",
     "login": "Eingang",
     "logout": "Ausgang",
+    "contentHome": [
+        {
+            "image": "",
+            "imageText": "" 
+        }, 
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": "" 
+        },
+        {
+            "image": "",
+            "imageText": ""
+        },
+        {
+            "image": "",
+            "imageText": ""
+        },
+        {
+            "image": "",
+            "imageText": ""
+        }
+    ],
     "contentAbout": [
         {
             "company": "Das Unternehmen IMV EOOD entstand aufgrund des Bedarfs unserer Kunden an Konstruktion, Beratung und Lösung verschiedener Produktionsprobleme. Mit unserem Team decken wir ein breites Branchenspektrum ab. Abhängig von den Kundenanforderungen und -problemen entwickeln und implementieren wir verschiedene moderne und bewährte Lösungen. Wir verfügen über die modernste Software zum Entwerfen, Entwickeln und Testen der Produkte, bevor sie in Produktion gehen. Besonderes Augenmerk legen wir auf die kleinen und großen Kieselsteine ​​auf unserem Weg und auf dem Weg unserer Kunden.",
