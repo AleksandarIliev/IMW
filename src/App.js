@@ -16,6 +16,7 @@ import { LanguageProvider } from "./Components/Context/LanguageContext";
 import LangSelector from "./Components/LangBtn/LangSelector";
 // import Content from "./Components/Content/Content";
 import AuthProvider from "./Components/Context/AuthProvider"
+import { Home } from './Components/Home/Home';
 
 function App() {
     const [width, setWidth] = useState(0);
@@ -36,7 +37,7 @@ function App() {
                 <LangSelector />
                 <Header />
                 <Routes window={window.scrollTo(0, 0)}>
-                    <Route path="/" />
+                    <Route path="/" element={<Home />}/>
                     <Route path="/about" element={<About width={width} />} />
                     <Route path="/team" element={<Team />} />
                     <Route path="/products" element={<Products />} />
