@@ -3,9 +3,9 @@ import { LanguageContext } from "../Context/LanguageContext";
 import styles from "./Home.module.css";
 
 export const Home = () => {
-    const dictionary = useContext(LanguageContext);
+    const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
-    const length = dictionary.dictionary.contentHome[0];
+    const length = dictionary.contentHome[0];
 
     const next = () => {
         setIndex(index === length - 1 ? 0 : index + 1);
