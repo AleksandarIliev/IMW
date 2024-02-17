@@ -1,19 +1,23 @@
-.bigView {
-
-}
-
 .image{
-    
+    width: 100%;
 }
 
 .prev {
-
+    position: relative;
+    top: -140px;
+    left: 10px;
+    z-index: 1;
 }
 
 .next {
-
+    position: relative;
+    top: -140px;
+    left: 10px;
+    z-index: 1;
 }
 
 .text {
-    
+    position: relative;
+    bottom: 75px;
+    text-align: center;
 }

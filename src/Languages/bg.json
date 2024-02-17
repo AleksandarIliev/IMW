@@ -8,16 +8,16 @@
     "logout": "Изход",
     "contentHome": [
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_1.jpg",
+            "imageText": "Това е завод 1" 
         }, 
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_2.jpg",
+            "imageText": "Това е завод 2" 
         },
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_3.jpg",
+            "imageText": "Това е завод 3" 
         },
         {
             "image": "",

@@ -8,16 +8,16 @@
     "logout": "Logout",
     "contentHome": [
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_1.jpg",
+            "imageText": "This is line 1" 
         }, 
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_2.jpg",
+            "imageText": "This is line 2" 
         },
         {
-            "image": "",
-            "imageText": "" 
+            "image": "Werk_3.jpg",
+            "imageText": "This is line 3" 
         },
         {
             "image": "",
