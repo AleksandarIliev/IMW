@@ -1,5 +1,7 @@
 import { useState, useContext, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+
 import styles from "./Home.module.css";
 
 export const Home = () => {
@@ -7,7 +9,7 @@ export const Home = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        const lastIndex = dictionary.contentHome[0].length - 1;
+        const lastIndex = dictionary.contentHome.length - 1;
         if (index < 0) {
             setIndex(lastIndex);
         } else if (index > lastIndex) {
@@ -22,12 +24,33 @@ export const Home = () => {
         return () => clearInterval(slider);
     }, [index,  dictionary.contentHome]);
 
-    return (
-        <div>
-            <img src={dictionary.contentHome[0].image} className={styles.image} alt={dictionary.contentHome[0].alt} />
-            <button className={styles.prev} onClick={() => setIndex(index - 1)}>&#10094;</button>
-            <button className={styles.next} onClick={() => setIndex(index + 1)}>&#10095;</button>
-            <h3 className={styles.text}>{dictionary.contentHome[0].imageText}</h3>
-        </div>
+    return (    
+        <div className="section-center">
+        {dictionary.contentHome.map((person, personIndex) => {
+          const { id, image, imageText, content } = person;
+          let position = "nextSlide";
+          if (personIndex === index) {
+            position = "activeSlide";
+          }
+          if (
+            personIndex === index - 1 ||
+            (index === 0 && personIndex === dictionary.contentHome.length - 1)
+          ) {
+            position = "lastSlide";
+          }
+          return (
+            <article key={id} className={position}>
+              <img src={image}  alt={imageText} className={styles.image} />
+              <p>{content}</p>
+            </article>
+          );
+        })}
+        <button className={styles.prev} onClick={() => setIndex(index - 1)}>
+          <FiChevronLeft />
+        </button>
+        <button className={styles.next} onClick={() => setIndex(index + 1)}>
+          <FiChevronRight />
+        </button>
+      </div>
     )
 }

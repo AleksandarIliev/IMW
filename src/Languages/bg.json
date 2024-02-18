@@ -8,40 +8,58 @@
     "logout": "Изход",
     "contentHome": [
         {
+            "id": 1,
             "image": "Werk_1.jpg",
-            "imageText": "Това е завод 1" 
+            "imageText": "Това е завод 1",
+            "content": "" 
         }, 
         {
+            "id": 2,
             "image": "Werk_2.jpg",
-            "imageText": "Това е завод 2" 
+            "imageText": "Това е завод 2",
+            "content": "" 
         },
         {
+            "id": 3,
             "image": "Werk_3.jpg",
-            "imageText": "Това е завод 3" 
+            "imageText": "Това е завод 3",
+            "content": "" 
         },
         {
+            "id": 4,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 5,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 6,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": "" 
         },
         {
+            "id": 7,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 8,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 9,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         }
     ],
     "contentAbout": [

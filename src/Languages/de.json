@@ -8,40 +8,58 @@
     "logout": "Ausgang",
     "contentHome": [
         {
+            "id": 1,
             "image": "Werk_1.jpg",
-            "imageText": "Das ist Werk 1" 
+            "imageText": "Das ist Werk 1",
+            "content": ""
         }, 
         {
+            "id": 2,
             "image": "Werk_2.jpg",
-            "imageText": "Das ist Werk 2" 
+            "imageText": "Das ist Werk 2",
+            "content": ""
         },
         {
+            "id": 3,
             "image": "Werk_3.jpg",
-            "imageText": "Das ist Werk 3" 
+            "imageText": "Das ist Werk 3",
+            "content": "" 
         },
         {
+            "id": 4,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": "" 
         },
         {
+            "id": 5,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 6,
             "image": "",
-            "imageText": "" 
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 7,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 8,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         },
         {
+            "id": 9,
             "image": "",
-            "imageText": ""
+            "imageText": "",
+            "content": ""
         }
     ],
     "contentAbout": [
