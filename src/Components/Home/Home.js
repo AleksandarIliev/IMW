@@ -15,42 +15,44 @@ export const Home = () => {
         } else if (index > lastIndex) {
             setIndex(0);
         }
-    }, [index, dictionary.contentHome])    
-    
+    }, [index, dictionary.contentHome])
+
     useEffect(() => {
         let slider = setInterval(() => {
             setIndex(index + 1);
         }, 5000);
         return () => clearInterval(slider);
-    }, [index,  dictionary.contentHome]);
+    }, [index]);
 
-    return (    
-        <div className="section-center">
-        {dictionary.contentHome.map((person, personIndex) => {
-          const { id, image, imageText, content } = person;
-          let position = "nextSlide";
-          if (personIndex === index) {
-            position = "activeSlide";
-          }
-          if (
-            personIndex === index - 1 ||
-            (index === 0 && personIndex === dictionary.contentHome.length - 1)
-          ) {
-            position = "lastSlide";
-          }
-          return (
-            <article key={id} className={position}>
-              <img src={image}  alt={imageText} className={styles.image} />
-              <p>{content}</p>
-            </article>
-          );
-        })}
-        <button className={styles.prev} onClick={() => setIndex(index - 1)}>
-          <FiChevronLeft />
-        </button>
-        <button className={styles.next} onClick={() => setIndex(index + 1)}>
-          <FiChevronRight />
-        </button>
-      </div>
+    return (
+        <section className="section">
+            <div className="section-center">
+                {dictionary.contentHome.map((slider, sliderIndex) => {
+                    const { id, image, imageText, content } = slider;
+                    let position = "nextSlide";
+                    if (sliderIndex === index) {
+                        position = "activeSlide";
+                    }
+                    if (
+                        sliderIndex === index - 1 ||
+                        (index === 0 && sliderIndex === dictionary.contentHome.length - 1)
+                    ) {
+                        position = "lastSlide";
+                    }
+                    return (
+                        <article key={id} className={position}>
+                            <img src={image} alt={imageText} className={styles.image} />
+                            <p>{content}{id}</p>
+                        </article>
+                    );
+                })}
+                <button className={styles.prev} onClick={() => setIndex(index - 1)}>
+                    <FiChevronLeft />
+                </button>
+                <button className={styles.next} onClick={() => setIndex(index + 1)}>
+                    <FiChevronRight />
+                </button>
+            </div>
+        </section>
     )
 }
