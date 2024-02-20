@@ -1,39 +1,31 @@
-import { useContext, useState } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-import styles from './Team.module.css';
+import { useContext, useState } from "react";
+import { Collapsible } from "./Collapsible";
 
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
-    const [open, setOpen] = useState(false);
-    const toggle = () => {
-        setOpen(!open);
-    }
 
     return (
-        <div className={styles.allSection}>
-            <div className={styles.section}>
-                <button onClick={toggle} className={styles.collapsible}>Our team</button>
-                {open && (
-                    <div className={styles.toggle}>
-                        <p>{dictionary.contentTeam.personOne}</p>
-                    </div>)}
-            </div>
+        <div>
+            <Collapsible label="Our team">
+                <ul>
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
+                </ul>
+            </Collapsible>
 
-            <div className={styles.section}>
-                <button onClick={toggle} className={styles.collapsible}>Certificates</button>
-                {open && (
-                    <div className={styles.toggle}>
-                        <p>{dictionary.contentTeam.personOne}</p>
-                    </div>)}
-            </div>
+            <Collapsible label="Certificates">
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+            </Collapsible>
 
-            <div className={styles.section}>
-                <button onClick={toggle} className={styles.collapsible}>Areas of work</button>
-                {open && (
-                    <div className={styles.toggle}>
-                        <p>{dictionary.contentTeam.personOne}</p>
-                    </div>)}
-            </div>
+            <Collapsible label="Areas of work">
+
+            </Collapsible>
         </div>
     )
 }
