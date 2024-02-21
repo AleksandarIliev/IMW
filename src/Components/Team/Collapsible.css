@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+}
+
+.toggle {
+    width: 100%;
+    height: 50px;
+    background-color: #777;
+    color: #fff;
+    border: unset;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+}
+
+.toggle:hover {
+    background-color: #555;
+}
+
+.content {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #686868;
+    display: none;
+    justify-content: center;
+}
+
+.show {
+    display: flex;
+}

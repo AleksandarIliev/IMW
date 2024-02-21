@@ -1,5 +1,5 @@
 import { LanguageContext } from "../Context/LanguageContext";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Collapsible } from "./Collapsible";
 
 export const Team = () => {
@@ -24,7 +24,19 @@ export const Team = () => {
             </Collapsible>
 
             <Collapsible label="Areas of work">
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+            </Collapsible>
 
+            <Collapsible label="Software">
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
             </Collapsible>
         </div>
     )
