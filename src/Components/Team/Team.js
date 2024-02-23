@@ -38,6 +38,13 @@ export const Team = () => {
                     <li>Three</li>
                 </ul>
             </Collapsible>
+            <Collapsible label="Languages">
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+            </Collapsible>
         </div>
     )
 }

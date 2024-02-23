@@ -87,6 +87,45 @@
             "descriptionSeven": "architect/civil construction",
             "personEight": "Eng. Aleksandar Iliev",
             "descriptionEight": "mechanical engineer/constructor"
+        },
+        {
+            "imageOne": "KIIP_2023.jpg",
+            "imageTwo": "JavaScript_programming_basics.jpg",
+            "imageThree": "Internal_audit.jpg",
+            "imageFour": "AutoCad.jpg",
+            "imageFive": "Basics_of_metrology_1.jpg",
+            "imageSix": "Basics_of_metrology_2.jpg",
+            "imageSeven": "Html_Css.jpg",
+            "imageEight": "JavaScript.jpg",
+            "imageNine": ""
+        },
+        {
+            "text": "Сферите в които имаме опит са: ",
+            "sphereOne": "Машиностроене",
+            "sphereTwo": "Електростроене",
+            "sphereThree": "Автомобилостроене",
+            "sphereFour": "Проектиране",
+            "sphereFive": "Строително инженерство",
+            "sphereSix": "Архитектура",
+            "sphereSeven": "Дизайн и планиране",
+            "sphereEight": "Пройзводство и внедряване",
+            "sphereNine": "Транспорт и логистика",
+            "sphereTen": "Телекомуникация и наблюдение"
+        },
+        {
+            "text": "Software that we work with no problem:",
+            "softOne": "Solid Works",
+            "softTwo": "Auto Cad",
+            "softThree": "Invertor"
+        },
+        {
+            "text": "Languages with we proud that we own:",
+            "langOne": "HTML",
+            "langTwo": "CSS",
+            "langThree": "javaScript",
+            "langFour": "React",
+            "langFive": "German languages",
+            "langSix": "English languages"
         }
     ],
     "contentProducts": [
