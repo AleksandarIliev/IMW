@@ -71,6 +71,17 @@
     ],
     "contentTeam": [
         {
+            "imageOne": "KIIP_2023.jpg",
+            "imageTwo": "JavaScript_programming_basics.jpg",
+            "imageThree": "Internal_audit.jpg",
+            "imageFour": "AutoCad.jpg",
+            "imageFive": "Basics_of_metrology_1.jpg",
+            "imageSix": "Basics_of_metrology_2.jpg",
+            "imageSeven": "Html_Css.jpg",
+            "imageEight": "JavaScript.jpg",
+            "imageNine": ""
+        },
+        {
             "personOne": "Eng. Michail Mihailov",
             "descriptionOne": "civil engineer/civil construction",
             "personTwo": "Eng. Danail Angelov",
@@ -89,28 +100,17 @@
             "descriptionEight": "mechanical engineer/constructor"
         },
         {
-            "imageOne": "KIIP_2023.jpg",
-            "imageTwo": "JavaScript_programming_basics.jpg",
-            "imageThree": "Internal_audit.jpg",
-            "imageFour": "AutoCad.jpg",
-            "imageFive": "Basics_of_metrology_1.jpg",
-            "imageSix": "Basics_of_metrology_2.jpg",
-            "imageSeven": "Html_Css.jpg",
-            "imageEight": "JavaScript.jpg",
-            "imageNine": ""
-        },
-        {
-            "text": "Сферите в които имаме опит са: ",
-            "sphereOne": "Машиностроене",
-            "sphereTwo": "Електростроене",
-            "sphereThree": "Автомобилостроене",
-            "sphereFour": "Проектиране",
-            "sphereFive": "Строително инженерство",
-            "sphereSix": "Архитектура",
-            "sphereSeven": "Дизайн и планиране",
-            "sphereEight": "Пройзводство и внедряване",
-            "sphereNine": "Транспорт и логистика",
-            "sphereTen": "Телекомуникация и наблюдение"
+            "text": "The areas in which we have experience are: ",
+            "sphereOne": "Mechanical engineering",
+            "sphereTwo": "Electrical engineering",
+            "sphereThree": "Automotive industry",
+            "sphereFour": "Projecting",
+            "sphereFive": "Civil engineering",
+            "sphereSix": "Architecture",
+            "sphereSeven": "Planning and design",
+            "sphereEight": "Production and deployment",
+            "sphereNine": "Transport and Logist",
+            "sphereTen": "Telecommunications and surveillance"
         },
         {
             "text": "Software that we work with no problem:",

@@ -71,6 +71,17 @@
     ],
     "contentTeam": [
         {
+            "imageOne": "KIIP_2023.jpg",
+            "imageTwo": "JavaScript_programming_basics.jpg",
+            "imageThree": "Internal_audit.jpg",
+            "imageFour": "AutoCad.jpg",
+            "imageFive": "Basics_of_metrology_1.jpg",
+            "imageSix": "Basics_of_metrology_2.jpg",
+            "imageSeven": "Html_Css.jpg",
+            "imageEight": "JavaScript.jpg",
+            "imageNine": ""
+        },
+        {
             "personOne": "Ing. Michail Mihailov",
             "descriptionOne": "Oberbauleiter / Bauingenieur",
             "personTwo": "Ing. Danail Angelov",
@@ -89,28 +100,17 @@
             "descriptionEight": "Maschinenbauingenieur / Konstrukteur"
         },
         {
-            "imageOne": "KIIP_2023.jpg",
-            "imageTwo": "JavaScript_programming_basics.jpg",
-            "imageThree": "Internal_audit.jpg",
-            "imageFour": "AutoCad.jpg",
-            "imageFive": "Basics_of_metrology_1.jpg",
-            "imageSix": "Basics_of_metrology_2.jpg",
-            "imageSeven": "Html_Css.jpg",
-            "imageEight": "JavaScript.jpg",
-            "imageNine": ""
-        },
-        {
-            "text": "Сферите в които имаме опит са: ",
-            "sphereOne": "Машиностроене",
-            "sphereTwo": "Електростроене",
+            "text": "Die Bereiche, in denen wir Erfahrung haben, sind: ",
+            "sphereOne": "Maschinenbau",
+            "sphereTwo": "Elektrotechnik",
             "sphereThree": "Автомобилостроене",
-            "sphereFour": "Проектиране",
-            "sphereFive": "Строително инженерство",
-            "sphereSix": "Архитектура",
-            "sphereSeven": "Дизайн и планиране",
-            "sphereEight": "Пройзводство и внедряване",
-            "sphereNine": "Транспорт и логистика",
-            "sphereTen": "Телекомуникация и наблюдение"
+            "sphereFour": "Design",
+            "sphereFive": "Bauingenieurwesen",
+            "sphereSix": "Die Architektur",
+            "sphereSeven": "Planung and Design",
+            "sphereEight": "Produktion und Bereitstellung",
+            "sphereNine": "Transport und Logistik",
+            "sphereTen": "Telekommunikation und Überwachung"
         },
         {
             "text": "Die Software, mit der wir problemlos arbeiten:",

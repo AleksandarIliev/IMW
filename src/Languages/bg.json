@@ -71,6 +71,17 @@
     ],
     "contentTeam": [
         {
+            "imageOne": "KIIP_2023.jpg",
+            "imageTwo": "JavaScript_programming_basics.jpg",
+            "imageThree": "Internal_audit.jpg",
+            "imageFour": "AutoCad.jpg",
+            "imageFive": "Basics_of_metrology_1.jpg",
+            "imageSix": "Basics_of_metrology_2.jpg",
+            "imageSeven": "Html_Css.jpg",
+            "imageEight": "JavaScript.jpg",
+            "imageNine": ""
+        },
+        {
             "personOne": "Инж. Михаил Михайлов",
             "descriptionOne": "Стройтелен инженер / Жилищно стройтелство",
             "personTwo": "Инж. Данаил Ангелов",
@@ -87,17 +98,6 @@
             "descriptionSeven": "Архитект / Жилищно стройтелство",
             "personEight": "Инж. Александър Илиев",
             "descriptionEight": "Машинен инженер / Конструктор"
-        },
-        {
-            "imageOne": "KIIP_2023.jpg",
-            "imageTwo": "JavaScript_programming_basics.jpg",
-            "imageThree": "Internal_audit.jpg",
-            "imageFour": "AutoCad.jpg",
-            "imageFive": "Basics_of_metrology_1.jpg",
-            "imageSix": "Basics_of_metrology_2.jpg",
-            "imageSeven": "Html_Css.jpg",
-            "imageEight": "JavaScript.jpg",
-            "imageNine": ""
         },
         {
             "text": "Сферите в които имаме опит са: ",

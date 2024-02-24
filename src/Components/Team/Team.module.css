@@ -1,26 +1,24 @@
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.mySlides {
+    display: none;
     width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    text-align: center;
 }
 
-.active,
-.collapsible:hover {
-    background-color: #555;
+.container {
+    max-width: 800px;
 }
 
-.toggle {
-    padding: 0 18px;
-    display: inline-block;
-    /* overflow: hidden; */
-    background-color: #f1f1f1;
+.bottommiddle {
+    width: 100%;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
 }
