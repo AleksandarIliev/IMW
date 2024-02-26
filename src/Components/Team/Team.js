@@ -6,30 +6,22 @@ import "./Team.module.css";
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
-    const photoLength = dictionary.contentHome.length - 1;
-    console.log(photoLength);
+    const photoLength = dictionary.contentTeam[0].length - 1;
+    console.log(dictionary.contentTeam[0]);
 
     const prev = () => {
-        setIndex = index - 1;
+        setIndex(index === photoLength ? 0 : index + 1)
     }
 
     const next = () => {
-        setIndex = index + 1;
+        setIndex(index === 0 ? photoLength : index - 1)
     }
-
-    // const change = () => {
-    //     if (index = photoLength) {
-    //         setIndex = 0;
-    //     } else {
-    //         setIndex = photoLength;
-    //     }
-    // }
 
     return (
         <div>
             <Collapsible label="Certificates">
                 <div className="container">
-                    <img className="mySlides" src={dictionary.contentHome[index]} alt="" />
+                    <img className="mySlides" src={dictionary.contentTeam[0]} alt="" />
                     <div className="bottommiddle">
                         <div className="w3-left w3-hover-text-khaki" onClick={prev}>&#10094;</div>
                         <div className="w3-right w3-hover-text-khaki" onClick={next}>&#10095;</div>
