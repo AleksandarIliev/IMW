@@ -7,7 +7,6 @@ export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
     const photoLength = dictionary.contentTeam[0].length - 1;
-    console.log(dictionary.contentTeam[0]);
 
     const prev = () => {
         setIndex(index === photoLength ? 0 : index + 1)
@@ -19,18 +18,18 @@ export const Team = () => {
 
     return (
         <div>
-            <Collapsible label="Certificates">
+            <Collapsible label={dictionary.contentTeam[0].certificates}>
                 <div className="container">
                     <img className="mySlides" src={dictionary.contentTeam[0]} alt="" />
                     <div className="bottommiddle">
-                        <div className="w3-left w3-hover-text-khaki" onClick={prev}>&#10094;</div>
-                        <div className="w3-right w3-hover-text-khaki" onClick={next}>&#10095;</div>
-                        <span className="w3-badge demo w3-border w3-transparent w3-hover-white" onClick="currentDiv(1)"></span>
+                        <div className="prevBtn" onClick={prev}>&#10094;</div>
+                        <div className="nextBtn" onClick={next}>&#10095;</div>
+                        <span className="i" onClick="currentDiv(1)"></span>
                     </div>
                 </div>
             </Collapsible>
 
-            <Collapsible label="Our team">
+            <Collapsible label={dictionary.contentTeam[0].ourTeam}>
                 <ul>
                     <li>First</li>
                     <li>Second</li>
@@ -38,7 +37,7 @@ export const Team = () => {
                 </ul>
             </Collapsible>
 
-            <Collapsible label="Areas of work">
+            <Collapsible label={dictionary.contentTeam[0].areasOfWork}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>
@@ -46,14 +45,15 @@ export const Team = () => {
                 </ul>
             </Collapsible>
 
-            <Collapsible label="Software">
+            <Collapsible label={dictionary.contentTeam[0].software}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>
                     <li>Three</li>
                 </ul>
             </Collapsible>
-            <Collapsible label="Languages">
+
+            <Collapsible label={dictionary.contentTeam[0].languages}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>

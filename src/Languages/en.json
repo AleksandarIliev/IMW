@@ -71,15 +71,43 @@
     ],
     "contentTeam": [
         {
-            "imageOne": "KIIP_2023.jpg",
-            "imageTwo": "JavaScript_programming_basics.jpg",
-            "imageThree": "Internal_audit.jpg",
-            "imageFour": "AutoCad.jpg",
-            "imageFive": "Basics_of_metrology_1.jpg",
-            "imageSix": "Basics_of_metrology_2.jpg",
-            "imageSeven": "Html_Css.jpg",
-            "imageEight": "JavaScript.jpg",
-            "imageNine": ""
+            "certificates": "Certificates"
+        },
+        {
+            "image": "KIIP_2023.jpg",
+            "description": "Design eligibility for 2023"
+        },
+        {
+            "image": "JavaScript_programming_basics.jpg",
+            "description": "Certificate for javaScript basic level"
+        },
+        {
+            "image": "Internal_audit.jpg",
+            "description": "Certificate for internal audit"
+        },
+        {
+            "image": "AutoCad.jpg",
+            "description": "Certificate for AutoCad"
+        },
+        {
+            "image": "Basics_of_metrology_1.jpg",
+            "description": "Certificate for Fundamentals of metrology"
+        },
+        {
+            "image": "Basics_of_metrology_2.jpg",
+            "description": "Certificate for Fundamentals of metrology"
+        },
+        {
+            "image": "Html_Css.jpg",
+            "description": "Certificate for HTML & CSS"
+        },
+        {
+            "image": "JavaScript.jpg",
+            "description": "Certificate for javaScript"
+        },
+        {
+            "image": "",
+            "description": ""
         },
         {
             "personOne": "Eng. Michail Mihailov",

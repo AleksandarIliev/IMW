@@ -11,19 +11,19 @@
             "id": 1,
             "image": "Werk_1.jpg",
             "imageText": "Това е завод 1",
-            "content": "" 
-        }, 
+            "content": ""
+        },
         {
             "id": 2,
             "image": "Werk_2.jpg",
             "imageText": "Това е завод 2",
-            "content": "" 
+            "content": ""
         },
         {
             "id": 3,
             "image": "Werk_3.jpg",
             "imageText": "Това е завод 3",
-            "content": "" 
+            "content": ""
         },
         {
             "id": 4,
@@ -41,7 +41,7 @@
             "id": 6,
             "image": "",
             "imageText": "",
-            "content": "" 
+            "content": ""
         },
         {
             "id": 7,
@@ -71,15 +71,43 @@
     ],
     "contentTeam": [
         {
-            "imageOne": "KIIP_2023.jpg",
-            "imageTwo": "JavaScript_programming_basics.jpg",
-            "imageThree": "Internal_audit.jpg",
-            "imageFour": "AutoCad.jpg",
-            "imageFive": "Basics_of_metrology_1.jpg",
-            "imageSix": "Basics_of_metrology_2.jpg",
-            "imageSeven": "Html_Css.jpg",
-            "imageEight": "JavaScript.jpg",
-            "imageNine": ""
+            "certificates": "Сертификати"
+        },
+        {
+            "image": "KIIP_2023.jpg",
+            "description": "Проектантска правотоспособност за 2023г."
+        },
+        {
+            "image": "JavaScript_programming_basics.jpg",
+            "description": "Сертификат за javaScript начално ниво"
+        },
+        {
+            "image": "Internal_audit.jpg",
+            "description": "Сертификат за вътрешен одит"
+        },
+        {
+            "image": "AutoCad.jpg",
+            "description": "Сертификат по AutoCad"
+        },
+        {
+            "image": "Basics_of_metrology_1.jpg",
+            "description": "Сертификат по Основи на метрологията"
+        },
+        {
+            "image": "Basics_of_metrology_2.jpg",
+            "description": "Сертификат по Основи на метрологията"
+        },
+        {
+            "image": "Html_Css.jpg",
+            "description": "Сертификат по HTML & CSS"
+        },
+        {
+            "image": "JavaScript.jpg",
+            "description": "Сертификат по javaScript"
+        },
+        {
+            "image": "",
+            "description": ""
         },
         {
             "personOne": "Инж. Михаил Михайлов",
@@ -379,5 +407,5 @@
             "companyDate": "Данни за компанията: Фирмата е регистрирана по закона за ДДС."
         }
     ],
-    "contentFooter" : "© Разработено и поддържано от "
+    "contentFooter": "© Разработено и поддържано от "
 }
