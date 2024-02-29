@@ -7,6 +7,7 @@ export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
     const photoLength = dictionary.contentTeam[0].length - 1;
+    console.log(dictionary.contentTeam[0]);
 
     const prev = () => {
         setIndex(index === photoLength ? 0 : index + 1)
@@ -18,7 +19,7 @@ export const Team = () => {
 
     return (
         <div>
-            <Collapsible label={dictionary.contentTeam[0].certificates}>
+            <Collapsible label={dictionary.contentTeam[0]}>
                 <div className="container">
                     <img className="mySlides" src={dictionary.contentTeam[0]} alt="" />
                     <div className="bottommiddle">

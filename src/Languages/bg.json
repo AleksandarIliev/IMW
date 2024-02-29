@@ -71,43 +71,47 @@
     ],
     "contentTeam": [
         {
-            "certificates": "Сертификати"
-        },
-        {
-            "image": "KIIP_2023.jpg",
-            "description": "Проектантска правотоспособност за 2023г."
-        },
-        {
-            "image": "JavaScript_programming_basics.jpg",
-            "description": "Сертификат за javaScript начално ниво"
-        },
-        {
-            "image": "Internal_audit.jpg",
-            "description": "Сертификат за вътрешен одит"
-        },
-        {
-            "image": "AutoCad.jpg",
-            "description": "Сертификат по AutoCad"
-        },
-        {
-            "image": "Basics_of_metrology_1.jpg",
-            "description": "Сертификат по Основи на метрологията"
-        },
-        {
-            "image": "Basics_of_metrology_2.jpg",
-            "description": "Сертификат по Основи на метрологията"
-        },
-        {
-            "image": "Html_Css.jpg",
-            "description": "Сертификат по HTML & CSS"
-        },
-        {
-            "image": "JavaScript.jpg",
-            "description": "Сертификат по javaScript"
-        },
-        {
-            "image": "",
-            "description": ""
+            "certificat": [
+                {
+                    "certificates": "Сертификати"
+                },
+                {
+                    "image": "KIIP_2023.jpg",
+                    "description": "Проектантска правотоспособност за 2023г."
+                },
+                {
+                    "image": "JavaScript_programming_basics.jpg",
+                    "description": "Сертификат за javaScript начално ниво"
+                },
+                {
+                    "image": "Internal_audit.jpg",
+                    "description": "Сертификат за вътрешен одит"
+                },
+                {
+                    "image": "AutoCad.jpg",
+                    "description": "Сертификат по AutoCad"
+                },
+                {
+                    "image": "Basics_of_metrology_1.jpg",
+                    "description": "Сертификат по Основи на метрологията"
+                },
+                {
+                    "image": "Basics_of_metrology_2.jpg",
+                    "description": "Сертификат по Основи на метрологията"
+                },
+                {
+                    "image": "Html_Css.jpg",
+                    "description": "Сертификат по HTML & CSS"
+                },
+                {
+                    "image": "JavaScript.jpg",
+                    "description": "Сертификат по javaScript"
+                },
+                {
+                    "image": "",
+                    "description": ""
+                }
+            ]
         },
         {
             "personOne": "Инж. Михаил Михайлов",
