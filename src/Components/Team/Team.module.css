@@ -1,5 +1,6 @@
-.mySlides {
-    display: none;
+.img {
+    display: block;
+    height: 500px;
     width: 100%;
 }
 
@@ -7,11 +8,29 @@
     max-width: 800px;
 }
 
-.bottommiddle {
-    width: 100%;
+.text {
+    text-align: center;
 }
 
-.w3-left,
+.prevBtn {
+    left: 20px;
+}
+
+.nextBtn {
+    right: 20px;
+}
+
+.prevBtn,
+.nextBtn {
+    display: block;
+    position: fixed;
+}
+
+/* .bottommiddle {
+    width: 100%;
+} */
+
+/* .w3-left,
 .w3-right,
 .w3-badge {
     cursor: pointer
@@ -21,4 +40,4 @@
     height: 13px;
     width: 13px;
     padding: 0;
-}
+} */

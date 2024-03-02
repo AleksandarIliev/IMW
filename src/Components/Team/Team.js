@@ -7,7 +7,7 @@ export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
     const photoLength = dictionary.contentTeam[0].length - 1;
-    console.log(dictionary.contentTeam[0]);
+    console.log(dictionary.contentTeam[0].certificates[0].certificates);
 
     const prev = () => {
         setIndex(index === photoLength ? 0 : index + 1)
@@ -19,18 +19,23 @@ export const Team = () => {
 
     return (
         <div>
-            <Collapsible label={dictionary.contentTeam[0]}>
-                <div className="container">
-                    <img className="mySlides" src={dictionary.contentTeam[0]} alt="" />
-                    <div className="bottommiddle">
-                        <div className="prevBtn" onClick={prev}>&#10094;</div>
-                        <div className="nextBtn" onClick={next}>&#10095;</div>
-                        <span className="i" onClick="currentDiv(1)"></span>
-                    </div>
-                </div>
+            <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
+                {dictionary.contentTeam[0].certificates.map((slide, slideIndex) => {
+                    const { image, text } = slide;
+                    return (
+                        <div className="container">
+                            <img className="img" src={image} alt="" />
+                            <div className="bottommiddle">
+                                <div className="prevBtn" onClick={prev}>&#10094;</div>
+                                <div className="nextBtn" onClick={next}>&#10095;</div>
+                                <span className="text" >{text}</span>
+                            </div>
+                        </div>
+                    )
+                })}
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].ourTeam}>
+            {/* <Collapsible label={dictionary.contentTeam[0].ourTeam}>
                 <ul>
                     <li>First</li>
                     <li>Second</li>
@@ -60,7 +65,7 @@ export const Team = () => {
                     <li>Two</li>
                     <li>Three</li>
                 </ul>
-            </Collapsible>
+            </Collapsible> */}
         </div>
     )
 }

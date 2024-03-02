@@ -12,7 +12,7 @@
             "image": "Werk_1.jpg",
             "imageText": "Das ist Werk 1",
             "content": ""
-        }, 
+        },
         {
             "id": 2,
             "image": "Werk_2.jpg",
@@ -23,13 +23,13 @@
             "id": 3,
             "image": "Werk_3.jpg",
             "imageText": "Das ist Werk 3",
-            "content": "" 
+            "content": ""
         },
         {
             "id": 4,
             "image": "",
             "imageText": "",
-            "content": "" 
+            "content": ""
         },
         {
             "id": 5,
@@ -71,43 +71,47 @@
     ],
     "contentTeam": [
         {
-            "certificates": "Zertifikate"
-        },
-        {
-            "image": "KIIP_2023.jpg",
-            "description": "Designberechtigung für 2023"
-        },
-        {
-            "image": "JavaScript_programming_basics.jpg",
-            "description": "Zertifikat fur javaScript Einstiegslevel"
-        },
-        {
-            "image": "Internal_audit.jpg",
-            "description": "Zertifikat fur Audit-Zertifikat"
-        },
-        {
-            "image": "AutoCad.jpg",
-            "description": "Zertifikat fur AutoCad"
-        },
-        {
-            "image": "Basics_of_metrology_1.jpg",
-            "description": "Zertifikat fur Grundlagen der Metrologie"
-        },
-        {
-            "image": "Basics_of_metrology_2.jpg",
-            "description": "Zertifikat fur Grundlagen der Metrologie"
-        },
-        {
-            "image": "Html_Css.jpg",
-            "description": "Zertifikat fur HTML & CSS"
-        },
-        {
-            "image": "JavaScript.jpg",
-            "description": "Zertifikat fur javaScript"
-        },
-        {
-            "image": "",
-            "description": ""
+            "certificates": [
+                {
+                    "certificates": "Zertifikate"
+                },
+                {
+                    "image": "KIIP_2023.jpg",
+                    "description": "Designberechtigung für 2023"
+                },
+                {
+                    "image": "JavaScript_programming_basics.jpg",
+                    "description": "Zertifikat fur javaScript Einstiegslevel"
+                },
+                {
+                    "image": "Internal_audit.jpg",
+                    "description": "Zertifikat fur Audit-Zertifikat"
+                },
+                {
+                    "image": "AutoCad.jpg",
+                    "description": "Zertifikat fur AutoCad"
+                },
+                {
+                    "image": "Basics_of_metrology_1.jpg",
+                    "description": "Zertifikat fur Grundlagen der Metrologie"
+                },
+                {
+                    "image": "Basics_of_metrology_2.jpg",
+                    "description": "Zertifikat fur Grundlagen der Metrologie"
+                },
+                {
+                    "image": "Html_Css.jpg",
+                    "description": "Zertifikat fur HTML & CSS"
+                },
+                {
+                    "image": "JavaScript.jpg",
+                    "description": "Zertifikat fur javaScript"
+                },
+                {
+                    "image": "",
+                    "description": ""
+                }
+            ]
         },
         {
             "personOne": "Ing. Michail Mihailov",
