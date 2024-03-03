@@ -1,38 +1,56 @@
 import { LanguageContext } from "../Context/LanguageContext";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Collapsible } from "./Collapsible";
-import "./Team.module.css";
+import "./Team.css";
 
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(0);
-    const photoLength = dictionary.contentTeam[0].length - 1;
-    console.log(dictionary.contentTeam[0].certificates[0].certificates);
 
-    const prev = () => {
-        setIndex(index === photoLength ? 0 : index + 1)
-    }
+    useEffect(() => {
+        const lastIndex = dictionary.contentTeam[0].length - 1;
+        if (index < 0) {
+            setIndex(lastIndex);
+        } else if (index > lastIndex) {
+            setIndex(0);
+        }
+    }, [index, dictionary.contentTeam]);
 
-    const next = () => {
-        setIndex(index === 0 ? photoLength : index - 1)
-    }
+    useEffect(() => {
+        let slider = setInterval(() => {
+            setIndex(index + 1);
+        }, 5000);
+        return () => clearInterval(slider);
+    }, [index]);
 
     return (
         <div>
             <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
-                {dictionary.contentTeam[0].certificates.map((slide, slideIndex) => {
-                    const { image, text } = slide;
-                    return (
-                        <div className="container">
-                            <img className="img" src={image} alt="" />
-                            <div className="bottommiddle">
-                                <div className="prevBtn" onClick={prev}>&#10094;</div>
-                                <div className="nextBtn" onClick={next}>&#10095;</div>
-                                <span className="text" >{text}</span>
+                <div className="sectionCenter">
+                    {dictionary.contentTeam[0].certificates.map((slide, sliderIndex) => {
+                        const { image, description } = slide;
+                        let position = "nextSlide";
+                        if (sliderIndex === index) {
+                            position = "activeSlide";
+                        }
+                        if (
+                            sliderIndex === index - 1 || 
+                            (index === 0 && sliderIndex === dictionary.contentTeam[0].length - 1)
+                        ) {
+                            position = "lastSlide";
+                        }
+                        return (
+                            <div key={sliderIndex} className={position}>
+                                <img className="img" src={image} alt="" />
+                                <div className="bottommiddle">
+                                    <span className="text" >{description}</span>
+                                </div>
                             </div>
-                        </div>
-                    )
-                })}
+                        );
+                    })}
+                    <button className="prevBtn" onClick={() => setIndex(index - 1)}>&#10094;</button>
+                    <button className="nextBtn" onClick={() => setIndex(index + 1)}>&#10095;</button>
+                </div>
             </Collapsible>
 
             {/* <Collapsible label={dictionary.contentTeam[0].ourTeam}>

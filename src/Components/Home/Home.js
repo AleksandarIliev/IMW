@@ -25,10 +25,10 @@ export const Home = () => {
     }, [index]);
 
     return (
-        <section className="section">
-            <div className="section-center">
+        <section>
+            <div>
                 {dictionary.contentHome.map((slider, sliderIndex) => {
-                    const { id, image, imageText, content } = slider;
+                    const { id, image, imageText } = slider;
                     let position = "nextSlide";
                     if (sliderIndex === index) {
                         position = "activeSlide";
@@ -42,7 +42,7 @@ export const Home = () => {
                     return (
                         <article key={id} className={position}>
                             <img src={image} alt={imageText} className={styles.image} />
-                            <p>{content}{id}</p>
+                            <p className={styles.text}>{imageText}</p>
                         </article>
                     );
                 })}

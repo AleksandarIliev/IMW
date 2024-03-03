@@ -21,11 +21,11 @@
 .content {
     width: auto;
     height: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     display: none;
     justify-content: center;
 }
 
 .show {
-    display: flex;
+    display: block;
 }

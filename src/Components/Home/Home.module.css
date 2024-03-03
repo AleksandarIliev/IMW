@@ -1,26 +1,27 @@
 .image {
+    position: fixed;
+    top: 37px;
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .prev {
-    position: relative;
+    position: fixed;
     float: left;
-    top: -50px;
+    top: 50%;
     left: 30px;
-
 }
 
 .next {
-    position: relative;
+    position: fixed;
     float: right;
-    top: -50px;
-    right: 30px;
-
+    top: 50%;
+    right: 50px;
 }
 
 .text {
-    position: relative;
-    bottom: 75px;
+    position: fixed;
+    width: 100%;
+    bottom: 25px;
     text-align: center;
 }
