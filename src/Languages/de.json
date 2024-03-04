@@ -10,55 +10,61 @@
         {
             "id": 1,
             "image": "Werk_1.jpg",
-            "imageText": "Das ist Werk 1",
+            "imageText": "Verpackungslinie",
             "content": ""
         },
         {
             "id": 2,
             "image": "Werk_2.jpg",
-            "imageText": "Das ist Werk 2",
+            "imageText": "Weiterleitungsleitung",
             "content": ""
         },
         {
             "id": 3,
             "image": "Werk_3.jpg",
-            "imageText": "Das ist Werk 3",
+            "imageText": "Stapellinie",
             "content": ""
         },
         {
             "id": 4,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_4.jpg",
+            "imageText": "Linie für Recycling",
             "content": ""
         },
         {
             "id": 5,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_5.jpg",
+            "imageText": "Förder- und Filterlinie",
             "content": ""
         },
         {
             "id": 6,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_6.jpg",
+            "imageText": "Linie für Verpackung",
             "content": ""
         },
         {
             "id": 7,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_7.jpg",
+            "imageText": "Linie für Trennung",
             "content": ""
         },
         {
             "id": 8,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_8.jpg",
+            "imageText": "Linie für Futter",
             "content": ""
         },
         {
             "id": 9,
-            "image": "",
-            "imageText": "",
+            "image": "Werk_9.jpg",
+            "imageText": "Linie für Trennung",
+            "content": ""
+        },
+        {
+            "id": 10,
+            "image": "Werk_10.jpg",
+            "imageText": "Verarbeitungslinie",
             "content": ""
         }
     ],

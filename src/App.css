@@ -20,6 +20,7 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
+    z-index: 1;
 }
 
 .navbar a:first-child {
@@ -66,6 +67,7 @@ body {
     position: absolute;
     top: 7px;
     right: 20px;
+    z-index: 1;
 }
 
 
@@ -125,10 +127,12 @@ body {
     .navBtn {
         display: block;
         position: fixed;
+        z-index: 2;
     }
     .miniNav {
         position: fixed;
         width: 100%;
+        z-index: 1;
     }
     .miniNav a{
         position: relative;
