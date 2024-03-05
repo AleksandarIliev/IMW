@@ -3,28 +3,29 @@
 }
 
 .img {
-
+    position: fixed;
+    top: 85px;
+    width: 100%;
+    height: 100%;
 }
 
-.prevBtn,
+.prevBtn {
+    position: fixed;
+    float: left;
+    top: 50%;
+    left: 30px;    
+}
+
 .nextBtn {
     position: fixed;
-    top: 150px;
+    float: right;
+    top: 50%;
+    right: 50px;
 }
 
 .prevBtn:hover,
 .nextBtn:hover {
     background: gray;
-}
-
-.prevBtn {
-    left: 0;
-    
-}
-
-.nextBtn {
-    right: 0;
-    
 }
 
 article {
