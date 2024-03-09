@@ -82,40 +82,44 @@
                     "certificates": "Zertifikate"
                 },
                 {
+                    "id": 1,
                     "image": "KIIP_2023.jpg",
                     "description": "Designberechtigung für 2023"
                 },
                 {
+                    "id": 2,
                     "image": "JavaScript_programming_basics.jpg",
                     "description": "Zertifikat fur javaScript Einstiegslevel"
                 },
                 {
+                    "id": 3,
                     "image": "Internal_audit.jpg",
                     "description": "Zertifikat fur Audit-Zertifikat"
                 },
                 {
+                    "id": 4,
                     "image": "AutoCad.jpg",
                     "description": "Zertifikat fur AutoCad"
                 },
                 {
+                    "id": 5,
                     "image": "Basics_of_metrology_1.jpg",
                     "description": "Zertifikat fur Grundlagen der Metrologie"
                 },
                 {
+                    "id": 6,
                     "image": "Basics_of_metrology_2.jpg",
                     "description": "Zertifikat fur Grundlagen der Metrologie"
                 },
                 {
+                    "id": 7,
                     "image": "Html_Css.jpg",
                     "description": "Zertifikat fur HTML & CSS"
                 },
                 {
+                    "id": 8,
                     "image": "JavaScript.jpg",
                     "description": "Zertifikat fur javaScript"
-                },
-                {
-                    "image": "",
-                    "description": ""
                 }
             ]
         },

@@ -82,40 +82,44 @@
                     "certificates": "Сертификати"
                 },
                 {
+                    "id": 1,
                     "image": "KIIP_2023.jpg",
                     "description": "Проектантска правотоспособност за 2023г."
                 },
                 {
+                    "id": 2,
                     "image": "JavaScript_programming_basics.jpg",
                     "description": "Сертификат за javaScript начално ниво"
                 },
                 {
+                    "id": 3,
                     "image": "Internal_audit.jpg",
                     "description": "Сертификат за вътрешен одит"
                 },
                 {
+                    "id": 4,
                     "image": "AutoCad.jpg",
                     "description": "Сертификат по AutoCad"
                 },
                 {
+                    "id": 5,
                     "image": "Basics_of_metrology_1.jpg",
                     "description": "Сертификат по Основи на метрологията"
                 },
                 {
+                    "id": 6,
                     "image": "Basics_of_metrology_2.jpg",
                     "description": "Сертификат по Основи на метрологията"
                 },
                 {
+                    "id": 7,
                     "image": "Html_Css.jpg",
                     "description": "Сертификат по HTML & CSS"
                 },
                 {
+                    "id": 8,
                     "image": "JavaScript.jpg",
                     "description": "Сертификат по javaScript"
-                },
-                {
-                    "image": "",
-                    "description": ""
                 }
             ]
         },

@@ -5,14 +5,14 @@ import "./Team.css";
 
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
-    const [index, setIndex] = useState(0);
+    const [index, setIndex] = useState(1);
 
     useEffect(() => {
-        const lastIndex = dictionary.contentTeam[0].length - 1;
-        if (index < 0) {
+        const lastIndex = dictionary.contentTeam[0].certificates.length - 1;
+        if (index < 1) {
             setIndex(lastIndex);
         } else if (index > lastIndex) {
-            setIndex(0);
+            setIndex(1);
         }
     }, [index, dictionary.contentTeam]);
 
@@ -27,21 +27,21 @@ export const Team = () => {
         <div>
             <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
                 <div className="sectionCenter">
-                    {dictionary.contentTeam[0].certificates.map((slide, sliderIndex) => {
-                        const { image, description } = slide;
+                    {dictionary.contentTeam[0].certificates.map((slider, sliderIndex) => {
+                        const { id, image, description } = slider;
                         let position = "nextSlide";
                         if (sliderIndex === index) {
                             position = "activeSlide";
                         }
                         if (
                             sliderIndex === index - 1 || 
-                            (index === 0 && sliderIndex === dictionary.contentTeam[0].length - 1)
+                            (index === 0 && sliderIndex === dictionary.contentTeam[0].certificates.length - 1)
                         ) {
                             position = "lastSlide";
                         }
                         return (
-                            <div key={sliderIndex} className={position}>
-                                <img className="img" src={image} alt="" />
+                            <div key={id} className={position}>
+                                <img src={image} alt={description} className="img" />
                                 <div className="bottommiddle">
                                     <span className="text" >{description}</span>
                                 </div>
