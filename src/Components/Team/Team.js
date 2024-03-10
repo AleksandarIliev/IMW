@@ -22,13 +22,14 @@ export const Team = () => {
         }, 5000);
         return () => clearInterval(slider);
     }, [index]);
+    console.log(index);
 
     return (
         <div>
             <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
                 <div className="sectionCenter">
                     {dictionary.contentTeam[0].certificates.map((slider, sliderIndex) => {
-                        const { id, image, description } = slider;
+                        const { image, description } = slider;
                         let position = "nextSlide";
                         if (sliderIndex === index) {
                             position = "activeSlide";
@@ -40,12 +41,12 @@ export const Team = () => {
                             position = "lastSlide";
                         }
                         return (
-                            <div key={id} className={position}>
+                            <article key={sliderIndex} className={position}>
                                 <img src={image} alt={description} className="img" />
                                 <div className="bottommiddle">
                                     <span className="text" >{description}</span>
                                 </div>
-                            </div>
+                            </article>
                         );
                     })}
                     <button className="prevBtn" onClick={() => setIndex(index - 1)}>&#10094;</button>
@@ -53,7 +54,7 @@ export const Team = () => {
                 </div>
             </Collapsible>
 
-            {/* <Collapsible label={dictionary.contentTeam[0].ourTeam}>
+            <Collapsible label={dictionary.contentTeam[0].ourTeam}>
                 <ul>
                     <li>First</li>
                     <li>Second</li>
@@ -83,7 +84,7 @@ export const Team = () => {
                     <li>Two</li>
                     <li>Three</li>
                 </ul>
-            </Collapsible> */}
+            </Collapsible>
         </div>
     )
 }

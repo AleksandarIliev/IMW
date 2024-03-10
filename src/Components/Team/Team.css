@@ -1,19 +1,24 @@
-.sectionCenter {
-
-}
-
 .img {
     position: fixed;
     top: 85px;
+    left: 35%;
+    width: 30%;
+    height: 80%;
+}
+
+.text {
+    position: fixed;
     width: 100%;
-    height: 100%;
+    bottom: 50px;
+    text-align: center;
+    font-size: 17px;
 }
 
 .prevBtn {
     position: fixed;
     float: left;
     top: 50%;
-    left: 30px;    
+    left: 50px;    
 }
 
 .nextBtn {
