@@ -124,22 +124,43 @@
             ]
         },
         {
-            "personOne": "Ing. Michail Mihailov",
-            "descriptionOne": "Oberbauleiter / Bauingenieur",
-            "personTwo": "Ing. Danail Angelov",
-            "descriptionTwo": "Maschinenbauingenieur / Autoindustrie",
-            "personThree": "Ing. Marian Iliev",
-            "descriptionThree": "Maschinenbauingenieur",
-            "personFour": "Ing. Ivailo Lalov",
-            "descriptionFour": "Elektro Ingenieur",
-            "personFive": "Ing. Aleksandar Iovchev",
-            "descriptionFive": "Maschinenbauingenieur / Autoindustrie",
-            "personSix": "Dr.Ing. Plamen Angelov",
-            "descriptionSix": "Maschinenbauingenieur / Metrologie",
-            "personSeven": "Arch. Bogdana Nikolova",
-            "descriptionSeven": "Architekt / Zivilbau",
-            "personEight": "Ing. Aleksandar Iliev",
-            "descriptionEight": "Maschinenbauingenieur / Konstrukteur"
+            "ourTeam": [
+                {
+                    "ourTeam": "Unsere Mannschaft"
+                },
+                {
+                    "person": "Ing. Michail Mihailov",
+                    "sphere": "Oberbauleiter / Bauingenieur"
+                },
+                {
+                    "person": "Ing. Danail Angelov",
+                    "sphere": "Maschinenbauingenieur / Autoindustrie"
+                },
+                {
+                    "person": "Ing. Marian Iliev",
+                    "sphere": "Maschinenbauingenieur"
+                },
+                {
+                    "person": "Ing. Ivailo Lalov",
+                    "sphere": "Elektro Ingenieur"
+                },
+                {
+                    "person": "Ing. Aleksandar Iovchev",
+                    "sphere": "Maschinenbauingenieur / Autoindustrie"
+                },
+                {
+                    "person": "Dr.Ing. Plamen Angelov",
+                    "sphere": "Maschinenbauingenieur / Metrologie"
+                },
+                {
+                    "person": "Arch. Bogdana Nikolova",
+                    "sphere": "Architekt / Zivilbau"
+                },
+                {
+                    "person": "Ing. Aleksandar Iliev",
+                    "sphere": "Maschinenbauingenieur / Konstrukteur"
+                }
+            ]
         },
         {
             "text": "Die Bereiche, in denen wir Erfahrung haben, sind: ",

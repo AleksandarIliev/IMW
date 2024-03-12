@@ -54,7 +54,7 @@ export const Team = () => {
                 </div>
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].ourTeam}>
+            <Collapsible label={dictionary.contentTeam[0].ourTeam[0].ourTeam}>
                 <ul>
                     <li>First</li>
                     <li>Second</li>
@@ -62,7 +62,7 @@ export const Team = () => {
                 </ul>
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].areasOfWork}>
+            <Collapsible label={dictionary.contentTeam[0].areasOfWork[0].areasOfWork}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>
@@ -70,7 +70,7 @@ export const Team = () => {
                 </ul>
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].software}>
+            <Collapsible label={dictionary.contentTeam[0].software[0].software}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>
@@ -78,7 +78,7 @@ export const Team = () => {
                 </ul>
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].languages}>
+            <Collapsible label={dictionary.contentTeam[0].languages[0].languages}>
                 <ul>
                     <li>One</li>
                     <li>Two</li>

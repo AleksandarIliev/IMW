@@ -124,22 +124,43 @@
             ]
         },
         {
-            "personOne": "Eng. Michail Mihailov",
-            "descriptionOne": "civil engineer/civil construction",
-            "personTwo": "Eng. Danail Angelov",
-            "descriptionTwo": "machanical engineer/automotive",
-            "personThree": "Eng. Marian Iliev",
-            "descriptionThree": "mechanical engineer",
-            "personFour": "Eng. Ivailo Lalov",
-            "descriptionFour": "electrical engineer<",
-            "personFive": "Eng. Aleksandar Iovchev",
-            "descriptionFive": "mechanical engineer/automotive",
-            "personSix": "Dr.Eng. Plamen Angelov",
-            "descriptionSix": "mechanical engineer/metrologist",
-            "personSeven": "Arch. Bogdana Nikolova",
-            "descriptionSeven": "architect/civil construction",
-            "personEight": "Eng. Aleksandar Iliev",
-            "descriptionEight": "mechanical engineer/constructor"
+            "ourTeam": [
+                {
+                    "ourTeam": "Our team"
+                },
+                {
+                    "person": "Eng. Michail Mihailov",
+                    "sphere": "civil engineer/civil construction"
+                },
+                {
+                    "person": "Eng. Danail Angelov",
+                    "sphere": "machanical engineer/automotive"
+                },
+                {
+                    "person": "Eng. Marian Iliev",
+                    "sphere": "mechanical engineer"
+                },
+                {
+                    "person": "Eng. Ivailo Lalov",
+                    "sphere": "electrical engineer"
+                },
+                {
+                    "person": "Eng. Aleksandar Iovchev",
+                    "sphere": "mechanical engineer/automotive"
+                },
+                {
+                    "person": "Dr.Eng. Plamen Angelov",
+                    "sphere": "mechanical engineer/metrologist"
+                },
+                {
+                    "person": "Arch. Bogdana Nikolova",
+                    "sphere": "architect/civil construction"
+                },
+                {
+                    "person": "Eng. Aleksandar Iliev",
+                    "sphere": "mechanical engineer/constructor"
+                }
+            ]
         },
         {
             "text": "The areas in which we have experience are: ",
