@@ -163,32 +163,82 @@
             ]
         },
         {
-            "text": "Сферите в които имаме опит са: ",
-            "sphereOne": "Машиностроене",
-            "sphereTwo": "Електростроене",
-            "sphereThree": "Автомобилостроене",
-            "sphereFour": "Проектиране",
-            "sphereFive": "Строително инженерство",
-            "sphereSix": "Архитектура",
-            "sphereSeven": "Дизайн и планиране",
-            "sphereEight": "Пройзводство и внедряване",
-            "sphereNine": "Транспорт и логистика",
-            "sphereTen": "Телекомуникация и наблюдение"
+            "areasOfWork": [
+                {
+                    "areasOfWork": "Сферите на работа"
+                },
+                {
+                    "sphere": "Машиностроене"
+                },
+                {
+                    "sphere": "Електростроене"
+                },
+                {
+                    "sphere": "Автомобилостроене"
+                },
+                {
+                    "sphere": "Проектиране"
+                },
+                {
+                    "sphere": "Строително инженерство"
+                }, 
+                {
+                    "sphere": "Архитектура"
+                },
+                {
+                    "sphere": "Дизайн и планиране"
+                },
+                {
+                    "sphere": "Пройзводство и внедряване"
+                },
+                {
+                    "sphere": "Транспорт и логистика"
+                },
+                {
+                    "sphere": "Телекомуникация и наблюдение"
+                }
+            ]            
         },
         {
-            "text": "Софтуерите с които работим без проблеми:",
-            "softOne": "Solid Works",
-            "softTwo": "Auto Cad",
-            "softThree": "Invertor"
+            "software": [
+                {
+                    "software": "Софтуери"
+                },
+                {
+                    "soft": "Solid Works"
+                },
+                {
+                    "soft": "Auto Cad"
+                },
+                {
+                    "soft": "Invertor"
+                }       
+            ]
         },
         {
-            "text": "Езиците с които се гордеем че владеем:",
-            "langOne": "HTML",
-            "langTwo": "CSS",
-            "langThree": "javaScript",
-            "langFour": "React",
-            "langFive": "Немски език",
-            "langSix": "Английски език"
+            "languages": [
+                {
+                    "languages": "Езици"
+                },
+                {
+                    "lang": "HTML"
+                },
+                {
+                    "lang": "CSS"
+                },
+                {
+                    "lang": "javaScript"
+                },
+                {
+                    "lang": "React"
+                },
+                {
+                    "lang": "Немски език"
+                },
+                {
+                    "lang": "Английски език"
+                }
+            ]
         }
     ],
     "contentProducts": [

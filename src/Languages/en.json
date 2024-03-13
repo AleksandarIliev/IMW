@@ -163,32 +163,82 @@
             ]
         },
         {
-            "text": "The areas in which we have experience are: ",
-            "sphereOne": "Mechanical engineering",
-            "sphereTwo": "Electrical engineering",
-            "sphereThree": "Automotive industry",
-            "sphereFour": "Projecting",
-            "sphereFive": "Civil engineering",
-            "sphereSix": "Architecture",
-            "sphereSeven": "Planning and design",
-            "sphereEight": "Production and deployment",
-            "sphereNine": "Transport and Logist",
-            "sphereTen": "Telecommunications and surveillance"
+            "": [
+                {
+                    "areasOfWork": "Areas of work"
+                },
+                {
+                    "sphere": "Mechanical engineering"
+                },
+                {
+                    "sphere": "Electrical engineering"
+                },
+                {
+                    "sphere": "Automotive industry"
+                },
+                {
+                    "sphere": "Projecting"
+                },
+                {
+                    "sphere": "Civil engineering"
+                },
+                {
+                    "sphere": "Architecture"
+                },
+                {
+                    "sphere": "Planning and design"
+                },
+                {
+                    "sphere": "Production and deployment"
+                },
+                {
+                    "sphere": "Transport and Logist"
+                },
+                {
+                    "sphere": "Telecommunications and surveillance"
+                }
+            ]
         },
         {
-            "text": "Software that we work with no problem:",
-            "softOne": "Solid Works",
-            "softTwo": "Auto Cad",
-            "softThree": "Invertor"
+            "software": [
+                {
+                    "software": "Software"
+                },
+                {
+                    "soft": "Solid Works"
+                },
+                {
+                    "soft": "Auto Cad"
+                },
+                {
+                    "soft": "Invertor"
+                }
+            ]
         },
         {
-            "text": "Languages with we proud that we own:",
-            "langOne": "HTML",
-            "langTwo": "CSS",
-            "langThree": "javaScript",
-            "langFour": "React",
-            "langFive": "German languages",
-            "langSix": "English languages"
+            "languages": [
+                {
+                    "languages": "Languages"
+                },
+                {
+                    "lang": "HTML"
+                },
+                {
+                    "lang": "CSS"
+                },
+                {
+                    "lang": "javaScript"
+                },
+                {
+                    "lang": "React"
+                },
+                {
+                    "lang": "German languages"
+                },
+                {
+                    "lang": "English languages"
+                }
+            ]
         }
     ],
     "contentProducts": [

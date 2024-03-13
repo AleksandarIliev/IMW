@@ -163,32 +163,82 @@
             ]
         },
         {
-            "text": "Die Bereiche, in denen wir Erfahrung haben, sind: ",
-            "sphereOne": "Maschinenbau",
-            "sphereTwo": "Elektrotechnik",
-            "sphereThree": "Автомобилостроене",
-            "sphereFour": "Design",
-            "sphereFive": "Bauingenieurwesen",
-            "sphereSix": "Die Architektur",
-            "sphereSeven": "Planung and Design",
-            "sphereEight": "Produktion und Bereitstellung",
-            "sphereNine": "Transport und Logistik",
-            "sphereTen": "Telekommunikation und Überwachung"
+            "areasOfWork": [
+                {
+                    "areasOfWork": "Arbeitsbereiche"
+                },
+                {
+                    "sphere": "Maschinenbau"
+                },
+                {
+                    "sphere": "Elektrotechnik"
+                },
+                {
+                    "sphere": "Automobilindustrie"
+                },
+                {
+                    "sphere": "Design"
+                },
+                {
+                    "sphere": "Bauingenieurwesen"
+                },
+                {
+                    "sphere": "Die Architektur"
+                },
+                {
+                    "sphere": "Planung and Design"
+                },
+                {
+                    "sphere": "Produktion und Bereitstellung"
+                },
+                {
+                    "sphere": "Transport und Logistik"
+                },
+                {
+                    "sphere": "Telekommunikation und Überwachung"
+                }
+            ]
         },
         {
-            "text": "Die Software, mit der wir problemlos arbeiten:",
-            "softOne": "Solid Works",
-            "softTwo": "Auto Cad",
-            "softThree": "Invertor"
+            "software": [
+                {
+                    "software": "Software"
+                },
+                {
+                    "soft": "Solid Works"
+                },
+                {
+                    "soft": "Auto Cad"
+                },
+                {
+                    "soft": "Invertor"
+                }
+            ]
         },
         {
-            "text": "Die Sprachen, auf die wir stolz sind:",
-            "langOne": "HTML",
-            "langTwo": "CSS",
-            "langThree": "javaScript",
-            "langFour": "React",
-            "langFive": "Deutsche Sprache",
-            "langSix": "Englisch Sprache"
+            "Sprachen": [
+                {
+                    "languages": "Sprachen" 
+                },
+                {
+                    "lang": "HTML"
+                },
+                {
+                    "lang": "CSS"
+                },
+                {
+                    "lang": "javaScript"
+                },
+                {
+                    "lang": "React"
+                },
+                {
+                    "lang": "Deutsche Sprache"
+                },
+                {
+                    "lang": "Englisch Sprache"
+                }
+            ]
         }
     ],
     "contentProducts": [
