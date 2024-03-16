@@ -80,11 +80,9 @@ export const Team = () => {
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[4].languages[0].languages}>
-                <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
-                </ul>
+                <div className="langStyle">
+                    {dictionary.contentTeam[4].languages.map(x => <div className="round">{x.lang}</div>)}
+                </div>
             </Collapsible>
         </div>
     )

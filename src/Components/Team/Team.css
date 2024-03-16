@@ -55,3 +55,31 @@ article.lastSlide {
 article.nextSlide {
     transform: translateX(100%);
 }
+
+.langStyle {
+    margin-left: -40px;
+    width: 100%;
+}
+
+.round:first-child {
+    display: none;
+}
+
+.round {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    background-color: #95DEE3;
+    padding: 20px;
+    margin: 20px;
+}
+
+.round:last-child {
+    margin-bottom: 55px;
+}
+
+.round:hover {
+    background-color: LightGray;
+}
