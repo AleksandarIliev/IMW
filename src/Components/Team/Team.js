@@ -72,11 +72,9 @@ export const Team = () => {
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[3].software[0].software}>
-                <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
-                </ul>
+                <div className="softStyle">
+                    {dictionary.contentTeam[3].software.map(x => <div className="field">{x.soft}</div>)}
+                </div>
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[4].languages[0].languages}>

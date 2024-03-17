@@ -18,7 +18,7 @@
     position: fixed;
     float: left;
     top: 50%;
-    left: 50px;    
+    left: 50px;
 }
 
 .nextBtn {
@@ -74,6 +74,7 @@ article.nextSlide {
     background-color: #95DEE3;
     padding: 20px;
     margin: 20px;
+    z-index: 0;
 }
 
 .round:last-child {
@@ -82,4 +83,26 @@ article.nextSlide {
 
 .round:hover {
     background-color: LightGray;
+}
+
+.softStyle {
+    width: 100%;
+}
+
+.field:first-child {
+    display: none;
+}
+
+.field {
+    position: relative;
+    float: left;
+    right: 5%;
+    left: 5%;
+    border-radius: 25px;
+    background-color: #90EE90;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    width: 27%;
+    height: 25px;
 }
