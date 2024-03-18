@@ -64,11 +64,9 @@ export const Team = () => {
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[2].areasOfWork[0].areasOfWork}>
-                <ul>
-                    <li>One</li>
-                    <li>Two</li>
-                    <li>Three</li>
-                </ul>
+                <ol className="areasStyles">
+                    {dictionary.contentTeam[2].areasOfWork.map(x => <li className="ordnenList">{x.sphere}</li>)}
+                </ol>
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[3].software[0].software}>
