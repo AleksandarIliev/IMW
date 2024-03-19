@@ -36,7 +36,7 @@ export const Team = () => {
                             position = "activeSlide";
                         }
                         if (
-                            sliderIndex === index - 1 || 
+                            sliderIndex === index - 1 ||
                             (index === 0 && sliderIndex === dictionary.contentTeam[0].certificates.length - 1)
                         ) {
                             position = "lastSlide";
@@ -56,11 +56,14 @@ export const Team = () => {
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[1].ourTeam[0].ourTeam}>
-                <ul>
-                    <li>First</li>
-                    <li>Second</li>
-                    <li>Third</li>
-                </ul>
+                {dictionary.contentTeam[1].ourTeam.map(x => {
+                    return (
+                        <div className="teamStyle">
+                            <span className="personStyle">{x.person + " - "}</span>
+                            <span className="sphereStyle">{x.sphere}</span>
+                        </div>
+                    )
+                })}
             </Collapsible>
 
             <Collapsible label={dictionary.contentTeam[2].areasOfWork[0].areasOfWork}>

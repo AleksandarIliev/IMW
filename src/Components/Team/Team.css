@@ -114,3 +114,7 @@ article.nextSlide {
 .ordnenList:first-child {
     display: none;
 }
+
+.teamStyle:first-child { 
+    display: none;
+}
