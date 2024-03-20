@@ -23,8 +23,6 @@ export const Team = () => {
         return () => clearInterval(slider);
     }, [index]);
 
-    // console.log();
-
     return (
         <div>
             <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>

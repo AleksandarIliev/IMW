@@ -115,6 +115,22 @@ article.nextSlide {
     display: none;
 }
 
+.ordnenList {
+    
+}
+
 .teamStyle:first-child { 
     display: none;
+}
+
+.teamStyle {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    background-color: #95DEE3;
+    padding: 20px;
+    margin: 20px;
+    z-index: 0;
 }
