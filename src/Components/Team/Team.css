@@ -71,11 +71,17 @@ article.nextSlide {
     left: 25%;
     right: 25%;
     text-align: center;
-    background-color: #95DEE3;
+    background-color: #F0FFF0;
+    animation: changeColorLang 4s infinite;
     padding: 20px;
     margin: 20px;
     z-index: 0;
 }
+
+@keyframes changeColorLang {
+    from {background-color: #F0FFF0;}
+    to {background-color: #95DEE3;}
+  }
 
 .round:last-child {
     margin-bottom: 55px;
@@ -126,11 +132,17 @@ article.nextSlide {
 .teamStyle {
     width: 50%;
     position: relative;
-    left: 25%;
+    left: 23%;
     right: 25%;
     text-align: center;
-    background-color: #95DEE3;
+    background-color: #F0FFF0;
+    animation: changeColorTeam 4s infinite;
     padding: 20px;
     margin: 20px;
     z-index: 0;
 }
+
+@keyframes changeColorTeam {
+    from {background-color: #F0FFF0;}
+    to {background-color: #95DEE3;}
+  }
