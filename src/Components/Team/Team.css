@@ -1,6 +1,6 @@
 .img {
-    position: fixed;
-    top: 85px;
+    position: relative;
+    top: 90px;
     left: 35%;
     width: 30%;
     height: 80%;
@@ -79,9 +79,14 @@ article.nextSlide {
 }
 
 @keyframes changeColorLang {
-    from {background-color: #F0FFF0;}
-    to {background-color: #95DEE3;}
-  }
+    from {
+        background-color: #F0FFF0;
+    }
+
+    to {
+        background-color: #95DEE3;
+    }
+}
 
 .round:last-child {
     margin-bottom: 55px;
@@ -125,7 +130,7 @@ article.nextSlide {
     
 } */
 
-.teamStyle:first-child { 
+.teamStyle:first-child {
     display: none;
 }
 
@@ -143,6 +148,11 @@ article.nextSlide {
 }
 
 @keyframes changeColorTeam {
-    from {background-color: #F0FFF0;}
-    to {background-color: #95DEE3;}
-  }
+    from {
+        background-color: #F0FFF0;
+    }
+
+    to {
+        background-color: #95DEE3;
+    }
+}

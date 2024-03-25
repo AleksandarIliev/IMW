@@ -42,7 +42,7 @@ export const Team = () => {
                         return (
                             <article key={sliderIndex} className={position}>
                                 <img src={image} alt={description} className="img" />
-                                <div className="bottommiddle">
+                                <div>
                                     <span className="text" >{description}</span>
                                 </div>
                             </article>
