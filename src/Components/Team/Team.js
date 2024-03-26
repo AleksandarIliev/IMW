@@ -81,6 +81,18 @@ export const Team = () => {
                     {dictionary.contentTeam[4].languages.map(x => <div className="round">{x.lang}</div>)}
                 </div>
             </Collapsible>
+
+
+            <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
+                <div className="container">
+                    <div className="mySlides">
+                        <div className="slideNumber">{dictionary.contentTeam[0].certificates[0].id} / {dictionary.contentTeam[0].certificates[0].length - 1}</div>
+                        <img alt={dictionary.contentTeam[0].certificates.description} src={dictionary.contentTeam[0].certificates[0].certificates.map(x => <div></div>)} className="image"/>
+                    </div>
+                    <button className="prevBtn" onClick={() => setIndex(dictionary.contentTeam[0].certificates[0].id - 1)}>&#10094;</button>
+                    <button className="nextBtn" onClick={() => setIndex(dictionary.contentTeam[0].certificates[0].id + 1)}>&#10095;</button>
+                </div>
+            </Collapsible>
         </div>
     )
 }
