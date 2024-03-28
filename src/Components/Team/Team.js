@@ -6,6 +6,7 @@ import "./Team.css";
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(1);
+    const [active, setActive] = useState(1);
 
     useEffect(() => {
         const lastIndex = dictionary.contentTeam[0].certificates.length - 1;
@@ -22,6 +23,22 @@ export const Team = () => {
         }, 5000);
         return () => clearInterval(slider);
     }, [index]);
+
+
+
+    const onNext = () => {
+        if (active < dictionary.contentTeam[0].certificates.length - 1) {
+            setActive(active + 1);
+        }
+    }
+
+    const onPrev = () => {
+        if (active > 1) {
+            setActive(active - 1);
+        }
+    }
+
+    console.log(dictionary.contentTeam[0].certificates[1].image);
 
     return (
         <div>
@@ -89,8 +106,8 @@ export const Team = () => {
                         <div className="slideNumber">{dictionary.contentTeam[0].certificates[1].id} / {dictionary.contentTeam[0].certificates.length - 1}</div>
                         <div>{dictionary.contentTeam[0].certificates.map((image, index, description) => (<img key={index} src={image} alt={description} />))}</div>
                     </div>
-                    <button className="prevBtn" onClick={() => setIndex(dictionary.contentTeam[0].certificates[1].id - 1)}>&#10094;</button>
-                    <button className="nextBtn" onClick={() => setIndex(dictionary.contentTeam[0].certificates[1].id + 1)}>&#10095;</button>
+                    <div className="prevBtn" onClick={onPrev}>&#10094;</div>
+                    <div className="nextBtn" onClick={onNext}>&#10095;</div>
                 </div>
             </Collapsible>
         </div>
