@@ -1,6 +1,7 @@
 import { LanguageContext } from "../Context/LanguageContext";
 import { useContext, useState, useEffect } from "react";
 import { Collapsible } from "./Collapsible";
+import { Slide } from "./Slide"
 import "./Team.css";
 
 export const Team = () => {
@@ -23,20 +24,6 @@ export const Team = () => {
         }, 5000);
         return () => clearInterval(slider);
     }, [index]);
-
-
-
-    const onNext = () => {
-        if (active < dictionary.contentTeam[0].certificates.length - 1) {
-            setActive(active + 1);
-        }
-    }
-
-    const onPrev = () => {
-        if (active > 1) {
-            setActive(active - 1);
-        }
-    }
 
     console.log(dictionary.contentTeam[0].certificates[1].image);
 
@@ -98,7 +85,6 @@ export const Team = () => {
                     {dictionary.contentTeam[4].languages.map(x => <div className="round">{x.lang}</div>)}
                 </div>
             </Collapsible>
-
 
             <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
                 <div className="container">
