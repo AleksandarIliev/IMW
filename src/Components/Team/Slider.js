@@ -1,9 +1,10 @@
 import { useContext, useState } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import { Slide } from "./Slide";
+import "./Slide.css";
 
-export const Slider = ({ }) => {
-    const cert = useContext(LanguageContext);
+export const Slider = () => {
+    const dictionary = useContext(LanguageContext);
     const [active, setActive] = useState(1);
 
     const onNext = () => {
@@ -18,23 +19,25 @@ export const Slider = ({ }) => {
         }
     }
 
+    // console.log(dictionary.contentTeam.certificates[0].length);
+
     return (
         <div className="slider">
             <div className="slides">
-                {images.map((e, i) => (
+                {dictionary.contentTeam[0].certificates.image.map((e, i) => (
                     <Slide key={e.description} {...e} active={i === active} />
                 ))}
             </div>
             <div className="nav">
                 <div className="navBottom">
-                    {images.map((e, i) => (
+                    {dictionary.contentTeam[0].certificates.image.map((e, i) => (
                         <img 
                             className={`preview ${i === active ? "active" : ""}`}
                             key={e.description}
                             onClick={() => setActive(i)}
                             src={e.image}
                             alt={e.description}
-                            style={{width: `${100 / images.length}%`}}
+                            style={{width: `${100 / dictionary.contentTeam[0].length}%`}}
                         />
                     ))}
                 </div>

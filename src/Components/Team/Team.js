@@ -3,11 +3,12 @@ import { useContext, useState, useEffect } from "react";
 import { Collapsible } from "./Collapsible";
 import { Slide } from "./Slide"
 import "./Team.css";
+import { Slider } from "./Slider";
 
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
     const [index, setIndex] = useState(1);
-    const [active, setActive] = useState(1);
+    // const [active, setActive] = useState(1);
 
     useEffect(() => {
         const lastIndex = dictionary.contentTeam[0].certificates.length - 1;
@@ -24,8 +25,6 @@ export const Team = () => {
         }, 5000);
         return () => clearInterval(slider);
     }, [index]);
-
-    console.log(dictionary.contentTeam[0].certificates[1].image);
 
     return (
         <div>
@@ -92,8 +91,8 @@ export const Team = () => {
                         <div className="slideNumber">{dictionary.contentTeam[0].certificates[1].id} / {dictionary.contentTeam[0].certificates.length - 1}</div>
                         <div>{dictionary.contentTeam[0].certificates.map((image, index, description) => (<img key={index} src={image} alt={description} />))}</div>
                     </div>
-                    <div className="prevBtn" onClick={onPrev}>&#10094;</div>
-                    <div className="nextBtn" onClick={onNext}>&#10095;</div>
+                    <Slide />
+                    <Slider />
                 </div>
             </Collapsible>
         </div>
