@@ -19,21 +19,19 @@ export const Slider = () => {
         }
     }
 
-    // console.log(dictionary.contentTeam.certificates[0].length);
-
     return (
         <div className="slider">
             <div className="slides">
-                {dictionary.contentTeam[0].certificates.image.map((e, i) => (
-                    <Slide key={e.description} {...e} active={i === active} />
+                {dictionary.contentTeam[0].certificates.map((e, i) => (
+                    <Slide key={e.id} {...e} active={i === active} />
                 ))}
             </div>
             <div className="nav">
                 <div className="navBottom">
-                    {dictionary.contentTeam[0].certificates.image.map((e, i) => (
+                    {dictionary.contentTeam[0].certificates.map((e, i) => (
                         <img 
                             className={`preview ${i === active ? "active" : ""}`}
-                            key={e.description}
+                            key={e.id}
                             onClick={() => setActive(i)}
                             src={e.image}
                             alt={e.description}

@@ -37,7 +37,7 @@
     width: 100%;
 }
 
-.navigation-bottom {
+.navBottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@
     border-color: skyblue;
 }
 
-.navigation-next-prev .next-prev {
+.navNextPrev .nextPrev {
     position: absolute;
     top: 50%;
     font-size: 1.5em;

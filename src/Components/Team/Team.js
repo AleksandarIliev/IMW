@@ -89,7 +89,7 @@ export const Team = () => {
                 <div className="container">
                     <div className="mySlides">
                         <div className="slideNumber">{dictionary.contentTeam[0].certificates[1].id} / {dictionary.contentTeam[0].certificates.length - 1}</div>
-                        <div>{dictionary.contentTeam[0].certificates.map((image, index, description) => (<img key={index} src={image} alt={description} />))}</div>
+                        <div>{dictionary.contentTeam[0].certificates.map((image, id, description) => (<img key={id} src={image} alt={description} />))}</div>
                     </div>
                     <Slide />
                     <Slider />
