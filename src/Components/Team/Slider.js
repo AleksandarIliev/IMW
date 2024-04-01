@@ -19,6 +19,8 @@ export const Slider = () => {
         }
     }
 
+console.log(dictionary.contentTeam.certificates[1].length - 1);
+
     return (
         <div className="slider">
             <div className="slides">
