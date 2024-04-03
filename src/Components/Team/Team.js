@@ -1,9 +1,10 @@
 import { LanguageContext } from "../Context/LanguageContext";
 import { useContext, useState, useEffect } from "react";
 import { Collapsible } from "./Collapsible";
-import { Slide } from "./Slide"
+// import { Slide } from "./Slide";
 import "./Team.css";
-import { Slider } from "./Slider";
+// import { Slider } from "./Slider";
+import { Sli } from "./Sli";
 
 export const Team = () => {
     const { dictionary } = useContext(LanguageContext);
@@ -85,7 +86,7 @@ export const Team = () => {
                 </div>
             </Collapsible>
 
-            <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
+            {/* <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
                 <div className="container">
                     <div className="mySlides">
                         <div className="slideNumber">{dictionary.contentTeam[0].certificates[1].id} / {dictionary.contentTeam[0].certificates.length - 1}</div>
@@ -94,6 +95,10 @@ export const Team = () => {
                     <Slide />
                     <Slider />
                 </div>
+            </Collapsible> */}
+
+            <Collapsible label={dictionary.contentTeam[0].certificates[0].certificates}>
+                <Sli />
             </Collapsible>
         </div>
     )
