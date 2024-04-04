@@ -1,9 +1,23 @@
 import "./Sli.css";
 import { Link } from "react-router-dom";
+import { useContext, useState, useEffect } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 
 export const Sli = () => {
+    const { dictionary } = useContext(LanguageContext);
+    const [index, setIndex] = useState(1);
+
+    useEffect(() => {
+        const lastIndex = dictionary.contentTeam.length - 1;
+        if (index < 0) {
+            setIndex(lastIndex);
+        } else if (index > lastIndex) {
+            setIndex(0);
+        }
+    }, [index, dictionary.contentTeam])
+
     return (
-        <>
+        <div>
             {/* <!-- Container for the image gallery-- > */}
             <div className="container">
 
@@ -13,10 +27,9 @@ export const Sli = () => {
                     <img className="img" src="img_woods_wide.jpg" alt="some_text"/>
                 </div>
 
-
                 {/* <!-- Next and previous buttons --> */}
-                <Link className="prev" onClick="plusSlides(-1)">&#10094;</Link>
-                <Link className="next" onClick="plusSlides(1)">&#10095;</Link>
+                <Link className="prev" onClick={() => setIndex(index - 1)}>&#10094;</Link>
+                <Link className="next" onClick={() => setIndex(index + 1)}>&#10095;</Link>
 
                 {/* <!-- Image text --> */}
                 <div className="caption-container">
@@ -30,6 +43,6 @@ export const Sli = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
