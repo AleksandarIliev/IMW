@@ -24,10 +24,13 @@ export const Sli = () => {
                 {/* <!-- Full-width images with number text --> */}
                 <div className="mySlides">
                     {dictionary.contentTeam.map((id, image, description) => {
-                        
+                        return (
+                            <>
+                                <div className="numbertext">1 / 6</div>
+                                <img className="img" src="img_woods_wide.jpg" alt="some_text" />
+                            </>
+                        )
                     })}
-                    <div className="numbertext">1 / 6</div>
-                    <img className="img" src="img_woods_wide.jpg" alt="some_text"/>
                 </div>
 
                 {/* <!-- Next and previous buttons --> */}
