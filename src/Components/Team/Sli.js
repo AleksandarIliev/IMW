@@ -23,11 +23,16 @@ export const Sli = () => {
 
                 {/* <!-- Full-width images with number text --> */}
                 <div className="mySlides">
-                    {dictionary.contentTeam.map((id, image, description) => {
+                    {dictionary.contentTeam[0].certificates.map((slide, slideIndex) => {
+                        const {id, image, description} = slide;
+                        const position = "nextSlide";
+                        if ( slideIndex === index) {
+                            
+                        }
                         return (
                             <>
-                                <div className="numbertext">1 / 6</div>
-                                <img className="img" src="img_woods_wide.jpg" alt="some_text" />
+                                <div className="numbertext">{id} / {slide.length - 1}</div>
+                                <img className="img" src={image} alt={description} />
                             </>
                         )
                     })}
