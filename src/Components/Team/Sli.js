@@ -16,6 +16,24 @@ export const Sli = () => {
         }
     }, [index, dictionary.contentTeam])
 
+    function plusSlide(n) {
+        showSlide(setIndex += n)
+    }
+
+    function currentSlide(n) {
+        showSlide(setIndex = n)
+    }
+
+    function showSlide(n) {
+        const lastIndex = dictionary.contentTeam.length - 1
+        if (n > lastIndex) {
+            setIndex = 1;
+        }
+        if (n < 1) {
+            setIndex = lastIndex;
+        }
+    }
+
     return (
         <div>
             {/* <!-- Container for the image gallery-- > */}
@@ -24,10 +42,16 @@ export const Sli = () => {
                 {/* <!-- Full-width images with number text --> */}
                 <div className="mySlides">
                     {dictionary.contentTeam[0].certificates.map((slide, slideIndex) => {
-                        const {id, image, description} = slide;
-                        const position = "nextSlide";
-                        if ( slideIndex === index) {
-                            
+                        const { id, image, description } = slide;
+                        let position = "nextSlide";
+                        if (slideIndex === index) {
+                            position = "activeSlide";
+                        }
+                        if (
+                            slideIndex === index - 1 ||
+                            (index === 0 && slideIndex === dictionary.contentTeam.length - 1)
+                        ) {
+                            position = "lastSlide";
                         }
                         return (
                             <>
