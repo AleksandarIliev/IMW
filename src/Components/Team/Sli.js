@@ -84,7 +84,7 @@ export const Sli = () => {
         <div className="app">
             <header>
                 <div className="header-wrapper">
-                    <h1>{dictionary.contentTeam.description}</h1>
+                    <h1>{dictionary.contentTeam[0].description}</h1>
                 </div>
             </header>
             {dictionary.contentTeam[0].certificates.map((content, contentIndex) => {
