@@ -65,6 +65,10 @@ body {
     display: none;    
 }
 
+.accountIcon a{
+    display: none;    
+}
+
 .langBtn {
     position: absolute;
     top: 7px;
@@ -134,7 +138,8 @@ body {
         position: fixed;
         z-index: 2;
     }
-    .miniNav {
+    .miniNav, 
+    .accountIcon {
         position: fixed;
         width: 100%;
         z-index: 1;

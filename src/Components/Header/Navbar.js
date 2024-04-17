@@ -31,6 +31,9 @@ export const Navbar = () => {
                 <NavLink to="/team">{dictionary.team}</NavLink>
                 <NavLink to="/products">{dictionary.products}</NavLink>
                 <NavLink to="/contact">{dictionary.contact}</NavLink>
+            </div>}
+            <div className="accountIcon"><p>&#xf2bd;</p></div>
+            {show && <div className="accountMenu">
                 <NavLink to="/register">{dictionary.register}</NavLink>
                 <NavLink to="/login">{dictionary.login}</NavLink>
                 <NavLink to="/logout">{dictionary.logout}</NavLink>
