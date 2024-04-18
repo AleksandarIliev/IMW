@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { RiAccountPinBoxLine } from "react-icons/ri";
 
 export const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -32,7 +33,7 @@ export const Navbar = () => {
                 <NavLink to="/products">{dictionary.products}</NavLink>
                 <NavLink to="/contact">{dictionary.contact}</NavLink>
             </div>}
-            <div className="accountIcon"><p>&#xf2bd;</p></div>
+            <div className="accountIcon"><RiAccountPinBoxLine /></div>
             {show && <div className="accountMenu">
                 <NavLink to="/register">{dictionary.register}</NavLink>
                 <NavLink to="/login">{dictionary.login}</NavLink>
