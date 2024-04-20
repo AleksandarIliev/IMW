@@ -33,7 +33,7 @@ export const Navbar = () => {
                 <NavLink to="/products">{dictionary.products}</NavLink>
                 <NavLink to="/contact">{dictionary.contact}</NavLink>
             </div>}
-            <div className="accountIcon"><RiAccountPinBoxLine /></div>
+            <h3 className="accountIcon"><RiAccountPinBoxLine /></h3>
             {show && <div className="accountMenu">
                 <NavLink to="/register">{dictionary.register}</NavLink>
                 <NavLink to="/login">{dictionary.login}</NavLink>

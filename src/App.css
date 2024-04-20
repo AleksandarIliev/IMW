@@ -115,7 +115,7 @@ body {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .navbar {
         position: fixed;
         width: 100%;
@@ -138,8 +138,7 @@ body {
         position: fixed;
         z-index: 2;
     }
-    .miniNav, 
-    .accountIcon {
+    .miniNav {
         position: fixed;
         width: 100%;
         z-index: 1;
@@ -165,10 +164,24 @@ body {
         top: 8px;
         right: 80px;
     }
+    .accountIcon {
+        position: fixed;
+        top: 8px;
+        right: 120px;
+        z-index: 2;
+    }
     .langBtn {
         position: fixed;
         right: 80px;
         z-index: 2;
+    }
+    .accountMenu {
+        position: fixed;
+        right: 120px;
+        z-index: 2;
+    }
+    .accountMenu a {
+        text-decoration: none;
     }
     .column {
         width: 100%;
