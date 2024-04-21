@@ -128,7 +128,6 @@ body {
     }
     .navbar a:first-child {
         text-align: left;
-        
     }
     .navbar a:not(:first-child) {
         display: none;
@@ -154,6 +153,16 @@ body {
         color: black;
         text-align: center;
         text-decoration: none;
+    }
+    .accountIcon {
+        display: block;
+        background-color: #95DEE3;
+        color: white;
+        font-size: 33px;
+        height: 35px;        
+    }
+    .accountIcon:hover {
+        background-color: #778899;
     }
     .miniNav a:hover {
         background-color: #778899;
