@@ -171,23 +171,31 @@ body {
     .language {
         position: fixed;
         top: 8px;
-        right: 80px;
+        /* right: 80px; */
     }
     .accountIcon {
         position: fixed;
-        top: 8px;
-        right: 120px;
+        top: -33px;
+        right: 80px;
         z-index: 2;
     }
     .langBtn {
         position: fixed;
-        right: 80px;
+        right: 130px;
         z-index: 2;
     }
-    .accountMenu {
-        position: fixed;
-        right: 120px;
-        z-index: 2;
+    .accountMenu a{
+        position: relative;
+        display: block;
+        top: 37px;
+        height: 30px;
+        width: 100%;
+        padding-top: 10px;
+        background-color: #95DEE3;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        z-index: 1;
     }
     .accountMenu a {
         text-decoration: none;
