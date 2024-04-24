@@ -163,15 +163,19 @@ body {
     }
     .accountIcon:hover {
         background-color: #778899;
+        color: FloralWhite;
     }
     .miniNav a:hover {
+        background-color: #778899;
+        color: FloralWhite;
+    }
+    .accountMenu a:hover {
         background-color: #778899;
         color: FloralWhite;
     }
     .language {
         position: fixed;
         top: 8px;
-        /* right: 80px; */
     }
     .accountIcon {
         position: fixed;
@@ -196,9 +200,6 @@ body {
         text-align: center;
         text-decoration: none;
         z-index: 1;
-    }
-    .accountMenu a {
-        text-decoration: none;
     }
     .column {
         width: 100%;
