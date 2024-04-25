@@ -49,6 +49,7 @@ body {
     border-radius: 50%;
     display: none;
 }
+
 .lineOne,
 .lineTwo,
 .lineThree {
@@ -58,15 +59,29 @@ body {
     margin: 6px 0;
     transition: 0.5s;
 }
+
+.change .lineOne {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .lineTwo {
+    opacity: 0;
+}
+
+.change .lineThree {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
 .navBtn:hover {
     background-color: #778899;
 }
-.miniNav a{
-    display: none;    
+
+.miniNav a {
+    display: none;
 }
 
 .accountIcon {
-    display: none;    
+    display: none;
 }
 
 .langBtn {
@@ -97,6 +112,7 @@ body {
     position: relative;
     top: -10px;
 }
+
 .footer a {
     text-decoration: none;
     color: black;
@@ -121,28 +137,34 @@ body {
         width: 100%;
         z-index: 1;
     }
+
     .contents,
     .navbar,
     .footer {
         flex-direction: column;
     }
+
     .navbar a:first-child {
         text-align: left;
     }
+
     .navbar a:not(:first-child) {
         display: none;
     }
+
     .navBtn {
         display: block;
         position: fixed;
         z-index: 2;
     }
+
     .miniNav {
         position: fixed;
         width: 100%;
         z-index: 1;
     }
-    .miniNav a{
+
+    .miniNav a {
         position: relative;
         display: block;
         top: 37px;
@@ -154,41 +176,49 @@ body {
         text-align: center;
         text-decoration: none;
     }
+
     .accountIcon {
         display: block;
         background-color: #95DEE3;
         color: white;
         font-size: 33px;
-        height: 35px;        
+        height: 35px;
     }
+
     .accountIcon:hover {
         background-color: #778899;
         color: FloralWhite;
     }
+
     .miniNav a:hover {
         background-color: #778899;
         color: FloralWhite;
     }
+
     .accountMenu a:hover {
         background-color: #778899;
         color: FloralWhite;
     }
+
     .language {
         position: fixed;
         top: 8px;
     }
+
     .accountIcon {
         position: fixed;
         top: -33px;
         right: 80px;
         z-index: 2;
     }
+
     .langBtn {
         position: fixed;
         right: 130px;
         z-index: 2;
     }
-    .accountMenu a{
+
+    .accountMenu a {
         position: relative;
         display: block;
         top: 37px;
@@ -201,10 +231,12 @@ body {
         text-decoration: none;
         z-index: 1;
     }
+
     .column {
         width: 100%;
         padding: 10px;
     }
+
     .footer a:hover {
         background-color: #778899;
         color: FloralWhite;

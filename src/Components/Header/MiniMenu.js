@@ -6,7 +6,7 @@ export const MiniMenu = () => {
     const [show, setShow] = useState(false);
     const { dictionary } = useContext(LanguageContext);
     const handleNavBtn = () => {
-        setShow((current) => !current)
+        setShow((current) => !current);
     }
     return (
         <>
@@ -20,11 +20,13 @@ export const MiniMenu = () => {
                 <NavLink to="/login">{dictionary.login}</NavLink>
                 <NavLink to="/logout">{dictionary.logout}</NavLink>
             </div>
+
             <div className="navBtn" onClick={handleNavBtn}>
                 <div className="lineOne"></div>
                 <div className="lineTwo"></div>
                 <div className="lineThree"></div>
             </div>
+
             {show && <div className="miniNav">
                 <NavLink to="/about">{dictionary.about}</NavLink>
                 <NavLink to="/team">{dictionary.team}</NavLink>
