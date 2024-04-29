@@ -50,6 +50,21 @@ body {
     display: none;
 }
 
+.navBtnClose {
+    background-color: #95DEE3;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: 1;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid FloralWhite;
+    border-radius: 50%;
+    display: none;
+    z-index: 1;
+}
+
 .lineOne,
 .lineTwo,
 .lineThree {
@@ -153,6 +168,12 @@ body {
     }
 
     .navBtn {
+        display: block;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    .navBtnClose {
         display: block;
         position: fixed;
         z-index: 2;

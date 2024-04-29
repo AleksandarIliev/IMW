@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
+import { RiCloseLine } from "react-icons/ri";
 
 export const MiniMenu = () => {
     const [show, setShow] = useState(false);
@@ -21,11 +22,11 @@ export const MiniMenu = () => {
                 <NavLink to="/logout">{dictionary.logout}</NavLink>
             </div>
 
-            <div className="navBtn" onClick={handleNavBtn}>
+            {!show ? <div className="navBtn" onClick={handleNavBtn}>
                 <div className="lineOne"></div>
                 <div className="lineTwo"></div>
                 <div className="lineThree"></div>
-            </div>
+            </div> : <h2><RiCloseLine className="navBtnClose"/></h2>}
 
             {show && <div className="miniNav">
                 <NavLink to="/about">{dictionary.about}</NavLink>
