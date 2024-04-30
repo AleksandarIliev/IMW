@@ -26,7 +26,7 @@ export const MiniMenu = () => {
                 <div className="lineOne"></div>
                 <div className="lineTwo"></div>
                 <div className="lineThree"></div>
-            </div> : <h2><RiCloseLine className="navBtnClose"/></h2>}
+            </div> : <RiCloseLine className="navBtnClose" onClick={handleNavBtn} size={35}/>}
 
             {show && <div className="miniNav">
                 <NavLink to="/about">{dictionary.about}</NavLink>
