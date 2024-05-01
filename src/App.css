@@ -176,7 +176,20 @@ body {
     .navBtnClose {
         display: block;
         position: fixed;
+        background-color: red;
         z-index: 2;
+    }
+
+    .closeAccIcon {
+        background-color: red;
+    }
+
+    .closeAccIcon:hover {
+        background-color: #778899;
+    }
+
+    .navBtnClose:hover {
+        background-color: #778899;
     }
 
     .miniNav {
@@ -204,6 +217,10 @@ body {
         color: white;
         font-size: 33px;
         height: 35px;
+        position: fixed;
+        top: -33px;
+        right: 80px;
+        z-index: 2;
     }
 
     .accountIcon:hover {
@@ -224,13 +241,6 @@ body {
     .language {
         position: fixed;
         top: 8px;
-    }
-
-    .accountIcon {
-        position: fixed;
-        top: -33px;
-        right: 80px;
-        z-index: 2;
     }
 
     .langBtn {

@@ -11,7 +11,7 @@ export const AccountMenu = () => {
     }
     return (
         <>
-            <div><h3 className="accountIcon" onClick={handleNavBtn}>{(!show ? <RiAccountCircleLine /> : <RiCloseLine />)}</h3></div>
+            <div><h3 className="accountIcon" onClick={handleNavBtn}>{(!show ? <RiAccountCircleLine /> : <RiCloseLine className="closeAccIcon"/>)}</h3></div>
             {show && <div className="accountMenu">
                 <NavLink to="/register">{dictionary.register}</NavLink>
                 <NavLink to="/login">{dictionary.login}</NavLink>
