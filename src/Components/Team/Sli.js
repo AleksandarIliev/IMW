@@ -3,37 +3,64 @@ import "./Sli.css";
 import { useContext, useState, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
 import ImageGallery from "react-image-gallery";
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 export const Sli = () => {
-    const { dictionary } = useContext(LanguageContext);
-    const [index, setIndex] = useState(1);
+    // const { dictionary } = useContext(LanguageContext);
+    // const [index, setIndex] = useState(1);
 
-    useEffect(() => {
-        const lastIndex = dictionary.contentTeam.length - 1;
-        if (index < 0) {
-            setIndex(lastIndex);
-        } else if (index > lastIndex) {
-            setIndex(0);
-        }
-    }, [index, dictionary.contentTeam[0].certificates])
+    // useEffect(() => {
+    //     const lastIndex = dictionary.contentTeam.length - 1;
+    //     if (index < 0) {
+    //         setIndex(lastIndex);
+    //     } else if (index > lastIndex) {
+    //         setIndex(0);
+    //     }
+    // }, [index, dictionary.contentTeam[0].certificates])
 
-    function plusSlide(n) {
-        showSlide(setIndex += n)
+    // function plusSlide(n) {
+    //     showSlide(setIndex += n)
+    // }
+
+    // function currentSlide(n) {
+    //     showSlide(setIndex = n)
+    // }
+
+    // function showSlide(n) {
+    //     const lastIndex = dictionary.contentTeam.length - 1
+    //     if (n > lastIndex) {
+    //         setIndex = 1;
+    //     }
+    //     if (n < 1) {
+    //         setIndex = lastIndex;
+    //     }
+    // }
+
+const [index, setIndex] = useState(1);
+const { dictionary } = useContext(LanguageContext);
+const autoScroll = true;
+let sliderInterval;
+let timeInterval = 3000;
+
+function auto () {
+    sliderInterval = setInterval(next, timeInterval);
+}
+useEffect(() => {
+    if (autoScroll) {
+        auto();
     }
+    return () => clearInterval(sliderInterval);
+},[index])
 
-    function currentSlide(n) {
-        showSlide(setIndex = n)
+const next = () => {
+    if (index === dictionary.contentTeam[0].certificates.length - 1) {
+        setIndex(1)
+    } else {
+        setIndex(index + 1)
     }
+}
 
-    function showSlide(n) {
-        const lastIndex = dictionary.contentTeam.length - 1
-        if (n > lastIndex) {
-            setIndex = 1;
-        }
-        if (n < 1) {
-            setIndex = lastIndex;
-        }
-    }
+console.log(dictionary.contentTeam[0].certificates);
 
     return (
         // <div>
@@ -81,20 +108,26 @@ export const Sli = () => {
         //     </div>
         // </div>
 
-        <div className="app">
-            <header>
-                <div className="header-wrapper">
-                    <h1>{dictionary.contentTeam[0].description}</h1>
-                </div>
-            </header>
-            {dictionary.contentTeam[0].certificates.map((content, contentIndex) => {
-                const { id, image, description } = content;
+        // <div className="app">
+        //     <header>
+        //         <div className="header-wrapper">
+        //             <h1>{dictionary.contentTeam[0].description}</h1>
+        //         </div>
+        //     </header>
+        //     <div key={index}>
+        //     {dictionary.contentTeam[0].certificates.map((content, contentIndex) => {
+        //         const { id, image, description } = content;
 
-                <div className="image-gallery-wrapper" key={id}>
-                    <ImageGallery items={image} autoPlay={true} showThumbnails={true} />
-                    <spam>{description}</spam>
-                </div>
-            })}
+        //         <div className="image-gallery-wrapper" key={id}>
+        //             <ImageGallery items={image} autoPlay={true} showThumbnails={true} />
+        //             <spam>{description}</spam>
+        //         </div>
+        //     })}
+        //     </div>
+        // </div>
+
+        <div>
+
         </div>
     )
 }
