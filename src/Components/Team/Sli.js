@@ -60,6 +60,22 @@ const next = () => {
     }
 }
 
+const prev = () => {
+    if (index === 0) {
+        setIndex(dictionary.contentTeam[0].certificates.length - 1)
+    } else {
+        setIndex(index - 1)
+    }
+}
+
+const Thumb = ({arr, image, index}) => {
+    return (
+        <div className="thumb">{
+            arr.map
+        }</div>
+    )
+}
+
 console.log(dictionary.contentTeam[0].certificates);
 
     return (
