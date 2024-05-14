@@ -1,4 +1,4 @@
-/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+@import "~react-image-gallery/styles/css/image-gallery.css";
 /*  */
 /* /*  */
 /* * { */
@@ -101,37 +101,70 @@
 /* } */
 /*  */
 
-@import "~react-image-gallery/styles/css/image-gallery.css";
+/* @import "~react-image-gallery/styles/css/image-gallery.css"; */
+/*  */
+/* header { */
+    /* background-color: #5c0080; */
+    /* z-index: 0; */
+    /* margin-bottom: 4rem; */
+/* } */
+/*  */
+/* .header-wrapper { */
+    /* max-width: 1024px; */
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* padding: 1rem 0; */
+    /* color: #ffffff; */
+/* } */
+/*  */
+/* .header-wrapper h1 { */
+    /* font-size: 2rem; */
+/* } */
+/*  */
+/* .image-gallery-wrapper { */
+    /* margin-top: 5rem; */
+    /* max-width: 800px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* border: 1px solid rgb(146, 129, 242); */
+    /* box-shadow: #2b15453d 1px 10px 10px 5px; */
+/* } */
+/*  */
+/* @media only screen and (min-device-width: 375px) { */
+    /* .header-wrapper { */
+        /* padding: 1rem; */
+    /* } */
+/* } */
 
-header {
-    background-color: #5c0080;
-    z-index: 0;
-    margin-bottom: 4rem;
-}
-
-.header-wrapper {
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    padding: 1rem 0;
-    color: #ffffff;
-}
-
-.header-wrapper h1 {
-    font-size: 2rem;
-}
-
-.image-gallery-wrapper {
-    margin-top: 5rem;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid rgb(146, 129, 242);
-    box-shadow: #2b15453d 1px 10px 10px 5px;
-}
-
-@media only screen and (min-device-width: 375px) {
-    .header-wrapper {
-        padding: 1rem;
+.thumb .active{
+    border:2px solid rgb(43, 185, 233);
     }
-}
+    .wrapper{
+        position: relative;
+        min-height: 300px;
+        height: auto;
+        width:500px;
+        padding: 0;
+    }
+    .leftBtn{
+        height: 40px;
+        width:40px;
+        border-radius: 50%;
+        background-color: rgba(253, 251, 251, 0.3);
+        border:1px solid rgb(43, 185, 233);
+        color:rgb(43, 185, 233);
+        position: absolute;
+        top:100px;
+        left:10px;
+    }
+    .nextBtn{
+        height: 40px;
+        width:40px;
+        border-radius: 50%;
+        background-color: rgba(253, 251, 251, 0.3);
+        border:1px solid rgb(43, 185, 233);
+        color:rgb(43, 185, 233);
+        position: absolute;
+        top:100px;
+        right:10px;
+    }

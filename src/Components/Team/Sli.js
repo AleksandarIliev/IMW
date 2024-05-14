@@ -2,7 +2,7 @@ import "./Sli.css";
 // import { Link } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
-import ImageGallery from "react-image-gallery";
+// import ImageGallery from "react-image-gallery";
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 
 export const Sli = () => {
@@ -36,49 +36,65 @@ export const Sli = () => {
     //     }
     // }
 
-const [index, setIndex] = useState(1);
-const { dictionary } = useContext(LanguageContext);
-const autoScroll = true;
-let sliderInterval;
-let timeInterval = 3000;
+    const [index, setIndex] = useState(1);
+    const { dictionary } = useContext(LanguageContext);
+    const autoScroll = true;
+    let sliderInterval;
+    let timeInterval = 5000;
 
-function auto () {
-    sliderInterval = setInterval(next, timeInterval);
-}
-useEffect(() => {
-    if (autoScroll) {
-        auto();
+    function auto() {
+        sliderInterval = setInterval(next, timeInterval);
     }
-    return () => clearInterval(sliderInterval);
-},[index])
+    useEffect(() => {
+        if (autoScroll) {
+            auto();
+        }
+        return () => clearInterval(sliderInterval);
+    }, [index])
 
-const next = () => {
-    if (index === dictionary.contentTeam[0].certificates.length - 1) {
-        setIndex(1)
-    } else {
-        setIndex(index + 1)
+    const next = () => {
+        if (index === dictionary.contentTeam[0].certificates.length - 1) {
+            setIndex(1)
+        } else {
+            setIndex(index + 1)
+        }
     }
-}
 
-const prev = () => {
-    if (index === 0) {
-        setIndex(dictionary.contentTeam[0].certificates.length - 1)
-    } else {
-        setIndex(index - 1)
+    const prev = () => {
+        if (index === 0) {
+            setIndex(dictionary.contentTeam[0].certificates.length - 1)
+        } else {
+            setIndex(index - 1)
+        }
     }
-}
 
-const Thumb = ({arr, image, index}) => {
+    const Thumb = ({ arr, image, index }) => {
+        return (
+            <div className="thumb">{
+                arr.map((imgSrc, i) => {
+                    return <img key={i} alt="" height="70" width="70" src={imgSrc} onClick={() => image(i)} className={index === i ? "active" : ""} style={{ margin: "2px" }} />
+                })
+            }</div>
+        )
+    }
+
     return (
-        <div className="thumb">{
-            arr.map
-        }</div>
+        <>
+            <div className='container'>
+                <div className='row'>
+                    <div className='wrapper'>
+                        <img src={dictionary.contentTeam[0].certificates[index]} alt="" style={{ height: '280px', width: '100%', position: 'relative' }} />
+                        <button onClick={prev} className="leftBtn"><FaArrowLeft /></button>
+                        <button onClick={next} className="nextBtn"><FaArrowRight /></button>
+                        <Thumb arr={dictionary.contentTeam[0].certificates} image={setIndex} index={index} /><br />
+                    </div>
+                </div>
+            </div>
+        </>
     )
-}
+    // console.log(dictionary.contentTeam[0].certificates);
 
-console.log(dictionary.contentTeam[0].certificates);
-
-    return (
+    // return (
         // <div>
         //     {/* <!-- Container for the image gallery-- > */}
         //     <div className="container">
@@ -142,8 +158,8 @@ console.log(dictionary.contentTeam[0].certificates);
         //     </div>
         // </div>
 
-        <div>
+        // <div>
 
-        </div>
-    )
+        // </div>
+    // )
 }
