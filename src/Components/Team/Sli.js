@@ -78,12 +78,14 @@ export const Sli = () => {
         )
     }
 
+    // console.log(dictionary.contentTeam[0].certificates.length);
+
     return (
         <>
             <div className='container'>
                 <div className='row'>
                     <div className='wrapper'>
-                        <img src={dictionary.contentTeam[0].certificates[index]} alt="" style={{ height: '280px', width: '100%', position: 'relative' }} />
+                        <img src={dictionary.contentTeam[0].certificates[index].image} alt="" style={{ height: '280px', width: '100%', position: 'relative' }} />
                         <button onClick={prev} className="leftBtn"><FaArrowLeft /></button>
                         <button onClick={next} className="nextBtn"><FaArrowRight /></button>
                         <Thumb arr={dictionary.contentTeam[0].certificates} image={setIndex} index={index} /><br />
