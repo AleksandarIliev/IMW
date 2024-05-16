@@ -251,6 +251,12 @@ body {
         z-index: 2;
     }
 
+    .accountMenu {
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
     .accountMenu a {
         position: relative;
         display: block;
@@ -262,7 +268,7 @@ body {
         color: black;
         text-align: center;
         text-decoration: none;
-        z-index: 1;
+        /* z-index: 1; */
     }
 
     .column {

@@ -71,16 +71,14 @@ export const Sli = () => {
     const Thumb = ({ arr, image, index }) => {
         return (
             <div className="thumb">{
-                arr.map((imgSrc, i) => {
+                arr.map((imgSrc , i) => {
                     return <img key={i} alt="" height="70" width="70" src={imgSrc} onClick={() => image(i)} className={index === i ? "active" : ""} style={{ margin: "2px" }} />
                 })
             }</div>
         )
     }
 
-    // console.log(dictionary.contentTeam[0].certificates.length);
-
-    return (
+return (
         <>
             <div className='container'>
                 <div className='row'>
