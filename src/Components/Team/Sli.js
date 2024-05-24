@@ -40,7 +40,7 @@ export const Sli = () => {
     const { dictionary } = useContext(LanguageContext);
     const autoScroll = true;
     let sliderInterval;
-    let timeInterval = 5000;
+    let timeInterval = 9000;
 
     function auto() {
         sliderInterval = setInterval(next, timeInterval);
@@ -71,7 +71,7 @@ export const Sli = () => {
     const Thumb = ({ arr, image, index }) => {
         return (
             <div className="thumb">{
-                arr.map((imgSrc , i) => {
+                arr.map((imgSrc, i) => {
                     return <img key={i} alt="" height="70" width="70" src={imgSrc} onClick={() => image(i)} className={index === i ? "active" : ""} style={{ margin: "2px" }} />
                 })
             }</div>
